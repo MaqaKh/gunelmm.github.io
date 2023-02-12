@@ -4,60 +4,16 @@
 
 <!-- Mirrored from www.tkrcd.org.tr/site-uyeligi by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 07 Feb 2023 20:47:46 GMT -->
 <!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
-<head>
-<!--
-       *       * * 	     *     *
-       * *   * * * *   * *    * *
-       *  * *  * *  * *  *   * * *
-       *   *   * *   *   *  *     *
-              MADMEN AGENCY
-            www.madmen.agency
--->
-	<meta charset="utf-8" />
-	<meta http-equiv="X-UA-Compatible" content="IE=10" />
-	<meta http-equiv="Content-language" content="tr" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="robots" content="all" />
-    <title>Site Üyeliği | TKRCD</title>
-    <meta name="description" content="site üyeliği" />
-    <meta name="keywords" content="site üyeliği" />
-	<meta name="author" content="TKRCD | Türk Kolon ve Rektum Cerrahisi Derneği" />
-	<link rel="alternate" hreflang="tr" href="index.html" />
-	<link rel="alternate" hreflang="en" href="en/index.html" />
-    <meta property="og:url" content="index.html" />
-    <meta property="og:type" content="website" />
-    <meta property="og:title" content="Site Üyeliği | TKRCD" />
-    <meta property="og:description" content="site üyeliği" />
-    <meta property="og:image" content="uploads/TKRCD/logo.png" />
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Site Üyeliği | TKRCD">
-    <meta name="twitter:description" content="site üyeliği">
-    <meta name="twitter:image" content="uploads/TKRCD/logo.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="uploads/logolar/tkrcd-favicon-2021-min.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="uploads/logolar/tkrcd-favicon-2021-min.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="uploads/logolar/tkrcd-favicon-2021-min.png">
-    <link rel="mask-icon" href="uploads/logolar/tkrcd-favicon-2021-min.png" color="#86344a">
-    <link rel="shortcut icon" href="uploads/logolar/tkrcd-favicon-2021-min.png">
-	<meta name="mobile-web-app-capable" content="yes"> 
-    <meta name="msapplication-TileColor" content="#da532c">
-    <meta name="theme-color" content="#ffffff">
-	<link rel="canonical" href="index.html"/>
-    <meta name="publisher" content="TKRCD | Türk Kolon ve Rektum Cerrahisi Derneği https://www.tkrcd.org.tr/">
-    <link href="assets/tkrcd/css/font-awesome.min.css" rel="stylesheet"/>
-    <link href="assets/tkrcd/css/bootstrap.min4af2.css?v=18.1" rel="stylesheet"/>
-    <link href="assets/tkrcd/css/swiper.min4af2.css?v=18.1" rel="stylesheet"/>
-    <link href="assets/tkrcd/plugins/sweet-alert/sweetalert.min4af2.css?v=18.1" rel="stylesheet"/>
-        <link href="assets/tkrcd/css/style4af2.css?v=18.1" rel="stylesheet"/>
-    <meta name="google-site-verification" content="qt9C7px-DHWYNWaz8anZrg3GesGMuaudyaQHWGsb4UU" />
-</head>
-
+<?php
+include "core/head.php";
+?>
 
 <body data-url="index.html">
 
 
 
     <header id="header">
-        <a id="logo" href="index.html" title="LOGO">
+        <a id="logo" href="index.php" title="LOGO">
             <img src="uploads/logolar/tkrcd-logo-2021-min.jpg" alt="TKRCD LOGO" width="200px" height="80px"/>
         </a>
         <div id="menu-holder">
@@ -82,7 +38,7 @@
                             
                                                         
                             <li>
-                                <a  href="site-uyeligi.html" title="ÜYE OL" class="colored saglik_calisanlari_icin" target="_self">ÜYE OL</a>
+                                <a href="register.php" title="ÜYE OL" class="colored saglik_calisanlari_icin" target="_self">ÜYE OL</a>
                             </li>
                         
                                         
@@ -138,7 +94,7 @@
             
                             
                                 <li class="toplum_icin saglik_calisanlari_icin  has-submenu ">
-                        <a href="tkrcd-hakkinda.html" title="HAKKINDA" target="_self" class="menu_baslik_a">HAKKINDA</a>
+                        <a href="about.php" title="HAKKINDA" target="_self" class="menu_baslik_a">HAKKINDA</a>
                                                     <div class="submenu">
                                                                                                                                                      <ul>
                                                                                          
@@ -560,7 +516,7 @@
 <div class="col-12">
 <div class="tabbed-content2 pt-1">
 <ul class="tab-list2">
-	<li class="active "><strong><a class="font-weight-bold" href="site-uyeligi.html">Site Üyelik Formu</a></strong></li>
+	<li class="active "><strong><a class="font-weight-bold" href="register.php">Site Üyelik Formu</a></strong></li>
 	<li><strong><a class="font-weight-bold" href="dernek-uyeligi.html">Dernek Üyelik Formu</a></strong></li>
 	<li><strong><a class="font-weight-bold" href="tkrcd-uyelerimiz.html">Üyelerimiz</a></strong></li>
 </ul>
@@ -2114,7 +2070,7 @@ TKRCD site üyesi olmak için referans gösterdiğiniz TKRCD dernek üyelerimizd
 
 
 <footer id="footer2">
-    <a href="index.html" title="LOGO">
+    <a href="index.php" title="LOGO">
          <img class="footer-logo" src="uploads/logolar/tkrcd-favicon-2021-min.png" alt="TKRCD Logo" title="TKRCD Logo" />
     </a>
     <h3 class="footer-title">TKRCD | Türk Kolon ve Rektum Cerrahisi Derneği</h3>
