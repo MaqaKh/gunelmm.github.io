@@ -76,8 +76,10 @@ include "core/header.php";
                             </p>
                         </div>
 
-                        <div class="article-content2" style="width:100%"><span
-                                    class="btn icon-right">Sayfaya&nbsp;Git</span></div>
+                        <div class="article-content2" style="width:100%">
+                            <span
+                                    class="btn icon-right">Səhifeye daxil ol
+                            </span></div>
                     </article>
                 </div>
 
@@ -94,7 +96,7 @@ include "core/header.php";
                         </div>
 
                         <div class="article-content2" style="width:100%"><span
-                                    class="btn icon-right">Sayfaya&nbsp;Git</span></div>
+                                    class="btn icon-right">Səhifeye daxil ol</span></div>
                     </article>
                 </div>
             </div>
