@@ -45,7 +45,7 @@ include "core/header.php";
                     <div data-n1ed-col-align="center" style="width:100%">
                         <div data-n1ed-col-align="center" style="width:100%">
                             <p>&nbsp;</p>
-                            <h1 style="text-align: center;"><span style="color:#ffffff;"><span><strong><Table>BSA | Bakı Senologiya Akademiyasi</Table></strong></span></span>
+                            <h1 style="text-align: center;"><span style="color:#ffffff;"><span><strong><Table>Uzman Dr. Günel Məmmədova</Table></strong></span></span>
                             </h1>
                         </div>
                     </div>
