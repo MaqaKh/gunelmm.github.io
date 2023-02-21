@@ -1,30 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="description" content="">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <title>Uzman Dr. Günel Məmmədova -uzman ümumi cərrah,mammoloq</title>
-    <meta name="description"
-          content="Uzman Dr. Gunel Məmmədova -uzman ümumi cərrah,mammoloq - sud vezi xercenginin müayinəsi və müalicəsi ilə məşquldur. Sud vezi xercengi elametleri, dos xercenginin"/>
-    <meta name="keywords" content="mamaloq,radioloq,sud vezi xercengi, dos xercengi, hekim radioloq, hekim mamaloq,sud vezi xercengi hekimi,sud vezi mualicesi, Bakı Senologiya Akademiyasi, bsa, BSA"/>
-    <meta name="author" content="Süd vəzi cərrahiyəsi - Uzman, Cərrah Günel Məmmədova"/>
-    <link rel="alternate" hreflang="az" href="index.php"/>
-    <meta property="og:url" content="https://sudvezi.az"/>
-    <meta property="og:type" content="website"/>
-    <meta property="og:locale" content="az_AZ"/>
-    <meta property="og:title" content="Uzman Dr. Günel Məmmədova -uzman ümumi cərrah,mammoloq"/>
-    <meta property="og:description" content="Mammoloq, Radioloq Dr.Gunel Memmedova sud vezi xercenginin müayinəsi və müalicəsi ilə məşquldur. Sud vezi xercengi elametleri, dos xercenginin"/>
-    <meta property="og:image" content="uploads/TKRCD/logo.png"/>
-    <link rel="icon" href="img/core-img/favicon.ico">
-
-    <!-- Style CSS -->
-    <link rel="stylesheet" href="style.css">
-
-</head>
+<?php
+include("core/meta.php");
+?>
 
 <body>
     <!-- Preloader -->
@@ -117,37 +96,37 @@
                     <div class="row h-100 align-items-center">
                         <div class="col-12">
                             <div class="hero-slides-content">
-                                <h2 data-animation="fadeInUp" data-delay="100ms">Medical Services that <br>You can Trust 100%</h2>
-                                <h6 data-animation="fadeInUp" data-delay="400ms">Lorem ipsum dolor sit amet, consectetuer adipiscing elit sed diam nonummy nibh euismod.</h6>
-                                <a href="#" class="btn medilife-btn mt-50" data-animation="fadeInUp" data-delay="700ms">Discover Medifile <span>+</span></a>
+                                <h2 data-animation="fadeInUp" data-delay="100ms">100% etibar edə biləcəyiniz <br>tibbi xidmətlər</h2>
+                                <h6 data-animation="fadeInUp" data-delay="400ms">Etibarlı tibbi xidmətlərimizlə rahat istirahət edin - sağlamlığınız bizim əsas prioritetimizdir!</h6>
+                                <a href="#" class="btn medilife-btn mt-50" data-animation="fadeInUp" data-delay="700ms"> Kəşf et <span>+</span></a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
             <!-- Single Hero Slide -->
-            <div class="single-hero-slide bg-img bg-overlay-white" style="background-image: url(img/bg-img/breadcumb3.jpg);">
+            <div class="single-hero-slide bg-img bg-overlay-white" style="background-image: url(img/bg-img/hero_1_2.jpeg);">
                 <div class="container h-100">
                     <div class="row h-100 align-items-center">
                         <div class="col-12">
                             <div class="hero-slides-content">
-                                <h2 data-animation="fadeInUp" data-delay="100ms">Medical Services that <br>You can Trust 100%</h2>
-                                <h6 data-animation="fadeInUp" data-delay="400ms">Lorem ipsum dolor sit amet, consectetuer adipiscing elit sed diam nonummy nibh euismod.</h6>
-                                <a href="#" class="btn medilife-btn mt-50" data-animation="fadeInUp" data-delay="700ms">Discover Medifile <span>+</span></a>
+                                <h2 data-animation="fadeInUp" data-delay="100ms">Keyfiyyətli tibbi xidmətdən  <br>rahatlıqla yararlanın</h2>
+                                <h6 data-animation="fadeInUp" data-delay="400ms">Mütəxəssislərdən ibarət mütəxəssis komandası və ən müasir tibbi texnologiyalarla etibar <br> edə biləcəyiniz keyfiyyətli tibbi xidmət üçün bizə etibar edin</h6>
+                                <a href="#" class="btn medilife-btn mt-50" data-animation="fadeInUp" data-delay="700ms">Kəşf et <span>+</span></a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
             <!-- Single Hero Slide -->
-            <div class="single-hero-slide bg-img bg-overlay-white" style="background-image: url(img/bg-img/breadcumb1.jpg);">
+            <div class="single-hero-slide bg-img bg-overlay-white" style="background-image: url(img/bg-img/hero1_3.jpeg);">
                 <div class="container h-100">
                     <div class="row h-100 align-items-center">
                         <div class="col-12">
                             <div class="hero-slides-content">
-                                <h2 data-animation="fadeInUp" data-delay="100ms">Medical Services that <br>You can Trust 100%</h2>
-                                <h6 data-animation="fadeInUp" data-delay="400ms">Lorem ipsum dolor sit amet, consectetuer adipiscing elit sed diam nonummy nibh euismod.</h6>
-                                <a href="#" class="btn medilife-btn mt-50" data-animation="fadeInUp" data-delay="700ms">Discover Medifile <span>+</span></a>
+                                <h2 data-animation="fadeInUp" data-delay="100ms">Etibar edə biləcəyiniz  <br>müstəsna tibbi xidmət</h2>
+                                <h6 data-animation="fadeInUp" data-delay="400ms">Bizim xüsusi komandamız bütün səhiyyə ehtiyaclarınız üçün ən müasir avadanlıq və <br> hərtərəfli xidmətlərlə etibar edə biləcəyiniz müstəsna tibbi xidmət təqdim edir.</h6>
+                                <a href="#" class="btn medilife-btn mt-50" data-animation="fadeInUp" data-delay="700ms">Kəşf et<span>+</span></a>
                             </div>
                         </div>
                     </div>
@@ -158,102 +137,99 @@
     <!-- ***** Hero Area End ***** -->
 
     <!-- ***** Book An Appoinment Area Start ***** -->
-    <div class="medilife-book-an-appoinment-area">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <div class="appointment-form-content">
-                        <div class="row no-gutters align-items-center">
-                            <div class="col-12 col-lg-9">
-                                <div class="medilife-appointment-form">
-                                    <form action="#" method="post">
-                                        <div class="row align-items-end">
-                                            <div class="col-12 col-md-4">
-                                                <div class="form-group">
-                                                    <select class="form-control" id="speciality">
-                                                    <option>Speciality 1</option>
-                                                    <option>Speciality 2</option>
-                                                    <option>Speciality 3</option>
-                                                    <option>Speciality 4</option>
-                                                    <option>Speciality 5</option>
-                                                </select>
-                                                </div>
-                                            </div>
-                                            <div class="col-12 col-md-4">
-                                                <div class="form-group">
-                                                    <select class="form-control" id="doctors">
-                                                    <option>Doctors 1</option>
-                                                    <option>Doctors 2</option>
-                                                    <option>Doctors 3</option>
-                                                    <option>Doctors 4</option>
-                                                    <option>Doctors 5</option>
-                                                </select>
-                                                </div>
-                                            </div>
-                                            <div class="col-12 col-md-2">
-                                                <div class="form-group">
-                                                    <input type="text" class="form-control" name="date" id="date" placeholder="Date">
-                                                </div>
-                                            </div>
-                                            <div class="col-12 col-md-2">
-                                                <div class="form-group">
-                                                    <input type="text" class="form-control" name="time" id="time" placeholder="Time">
-                                                </div>
-                                            </div>
-                                            <div class="col-12 col-md-4">
-                                                <div class="form-group">
-                                                    <input type="text" class="form-control border-top-0 border-right-0 border-left-0" name="name" id="name" placeholder="Name">
-                                                </div>
-                                            </div>
-                                            <div class="col-12 col-md-4">
-                                                <div class="form-group">
-                                                    <input type="text" class="form-control border-top-0 border-right-0 border-left-0" name="number" id="number" placeholder="Phone">
-                                                </div>
-                                            </div>
-                                            <div class="col-12 col-md-4">
-                                                <div class="form-group">
-                                                    <input type="email" class="form-control border-top-0 border-right-0 border-left-0" name="email" id="email" placeholder="E-mail">
-                                                </div>
-                                            </div>
-                                            <div class="col-12 col-md-7">
-                                                <div class="form-group mb-0">
-                                                    <textarea name="message" class="form-control mb-0 border-top-0 border-right-0 border-left-0" id="message" cols="30" rows="10" placeholder="Message"></textarea>
-                                                </div>
-                                            </div>
-                                            <div class="col-12 col-md-5 mb-0">
-                                                <div class="form-group mb-0">
-                                                    <button type="submit" class="btn medilife-btn">Make an Appointment <span>+</span></button>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </form>
-                                </div>
-                            </div>
-                            <div class="col-12 col-lg-3">
-                                <div class="medilife-contact-info">
-                                    <!-- Single Contact Info -->
-                                    <div class="single-contact-info mb-30">
-                                        <img src="img/icons/alarm-clock.png" alt="">
-                                        <p>Mon - Sat 08:00 - 21:00 <br>Sunday CLOSED</p>
-                                    </div>
-                                    <!-- Single Contact Info -->
-                                    <div class="single-contact-info mb-30">
-                                        <img src="img/icons/envelope.png" alt="">
-                                        <p>0080 673 729 766 <br>contact@business.com</p>
-                                    </div>
-                                    <!-- Single Contact Info -->
-                                    <div class="single-contact-info">
-                                        <img src="img/icons/map-pin.png" alt="">
-                                        <p>Lamas Str, no 14-18 <br>41770 Miami</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+<!--    <div class="medilife-book-an-appoinment-area">-->
+<!--        <div class="container">-->
+<!--            <div class="row">-->
+<!--                <div class="col-12">-->
+<!--                    <div class="appointment-form-content">-->
+<!--                        <div class="row no-gutters align-items-center">-->
+<!--                            <div class="col-12 col-lg-9">-->
+<!--                                <div class="medilife-appointment-form">-->
+<!--                                    <form action="#" method="post">-->
+<!--                                        <div class="row align-items-end">-->
+<!--                                            <div class="col-12 col-md-4">-->
+<!--                                                <div class="form-group">-->
+<!--                                                    <select class="form-control" id="speciality">-->
+<!--                                                    <option>Speciality 1</option>-->
+<!--                                                    <option>Speciality 2</option>-->
+<!--                                                    <option>Speciality 3</option>-->
+<!--                                                    <option>Speciality 4</option>-->
+<!--                                                    <option>Speciality 5</option>-->
+<!--                                                </select>-->
+<!--                                                </div>-->
+<!--                                            </div>-->
+<!--                                            <div class="col-12 col-md-4">-->
+<!--                                                <div class="form-group">-->
+<!--                                                    <select class="form-control" id="doctors">-->
+<!--                                                    <option>Doctors 1</option>-->
+<!--                                                    <option>Doctors 2</option>-->
+<!--                                                    <option>Doctors 3</option>-->
+<!--                                                    <option>Doctors 4</option>-->
+<!--                                                    <option>Doctors 5</option>-->
+<!--                                                </select>-->
+<!--                                                </div>-->
+<!--                                            </div>-->
+<!--                                            <div class="col-12 col-md-2">-->
+<!--                                                <div class="form-group">-->
+<!--                                                    <input type="text" class="form-control" name="date" id="date" placeholder="Date">-->
+<!--                                                </div>-->
+<!--                                            </div>-->
+<!--                                            <div class="col-12 col-md-2">-->
+<!--                                                <div class="form-group">-->
+<!--                                                    <input type="text" class="form-control" name="time" id="time" placeholder="Time">-->
+<!--                                                </div>-->
+<!--                                            </div>-->
+<!--                                            <div class="col-12 col-md-4">-->
+<!--                                                <div class="form-group">-->
+<!--                                                    <input type="text" class="form-control border-top-0 border-right-0 border-left-0" name="name" id="name" placeholder="Name">-->
+<!--                                                </div>-->
+<!--                                            </div>-->
+<!--                                            <div class="col-12 col-md-4">-->
+<!--                                                <div class="form-group">-->
+<!--                                                    <input type="text" class="form-control border-top-0 border-right-0 border-left-0" name="number" id="number" placeholder="Phone">-->
+<!--                                                </div>-->
+<!--                                            </div>-->
+<!--                                            <div class="col-12 col-md-4">-->
+<!--                                                <div class="form-group">-->
+<!--                                                    <input type="email" class="form-control border-top-0 border-right-0 border-left-0" name="email" id="email" placeholder="E-mail">-->
+<!--                                                </div>-->
+<!--                                            </div>-->
+<!--                                            <div class="col-12 col-md-7">-->
+<!--                                                <div class="form-group mb-0">-->
+<!--                                                    <textarea name="message" class="form-control mb-0 border-top-0 border-right-0 border-left-0" id="message" cols="30" rows="10" placeholder="Message"></textarea>-->
+<!--                                                </div>-->
+<!--                                            </div>-->
+<!--                                            <div class="col-12 col-md-5 mb-0">-->
+<!--                                                <div class="form-group mb-0">-->
+<!--                                                    <button type="submit" class="btn medilife-btn">Make an Appointment <span>+</span></button>-->
+<!--                                                </div>-->
+<!--                                            </div>-->
+<!--                                        </div>-->
+<!--                                    </form>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                            <div class="col-12 col-lg-3">-->
+<!--                                <div class="medilife-contact-info">-->
+<!--                                    <div class="single-contact-info mb-30">-->
+<!--                                        <img src="img/icons/alarm-clock.png" alt="">-->
+<!--                                        <p>Mon - Sat 08:00 - 21:00 <br>Sunday CLOSED</p>-->
+<!--                                    </div>-->
+<!--                                    <div class="single-contact-info mb-30">-->
+<!--                                        <img src="img/icons/envelope.png" alt="">-->
+<!--                                        <p>0080 673 729 766 <br>contact@business.com</p>-->
+<!--                                    </div>-->
+<!--                                    <div class="single-contact-info">-->
+<!--                                        <img src="img/icons/map-pin.png" alt="">-->
+<!--                                        <p>Lamas Str, no 14-18 <br>41770 Miami</p>-->
+<!--                                    </div>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
     <!-- ***** Book An Appoinment Area End ***** -->
 
     <!-- ***** About Us Area Start ***** -->

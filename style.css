@@ -562,7 +562,7 @@ img {
     position: relative;
     z-index: 1;
     height: 45px;
-    background-color:#ff0082;
+    background-color: #081f3e;
 }
 
 .top-header-area p {
@@ -598,7 +598,7 @@ img {
     height: 110px;
     position: relative;
     z-index: 1;
-    background-color: #460C68;
+    background-color: rgba(0, 108, 255, 0.5);
     -webkit-transition-duration: 500ms;
     transition-duration: 500ms;
 }
