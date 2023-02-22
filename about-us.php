@@ -19,7 +19,9 @@ include("core/meta.php");
                 <div class="row h-100">
                     <div class="col-12 h-100">
                         <div class="h-100 d-md-flex justify-content-between align-items-center">
-                            <p>Welcome to <span>Medifile</span> template</p>
+                            <p>
+                                <!--                                Welcome to <span>Medifile</span> template-->
+                            </p>
                             <p>Opening Hours : Monday to Saturday - 8am to 10pm Contact : <span>+12-823-611-8721</span></p>
                         </div>
                     </div>
@@ -35,7 +37,9 @@ include("core/meta.php");
                         <div class="main-menu h-100">
                             <nav class="navbar h-100 navbar-expand-lg">
                                 <!-- Logo Area  -->
-                                <a class="navbar-brand" href="index.php"><img src="img/core-img/logo.png" alt="Logo"></a>
+                                <a class="navbar-brand" href="index.php"
+                                ><img style="max-width: 50%;" src="img/core-img/logo_new.png" alt="Logo">
+                                </a>
 
                                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#medilifeMenu" aria-controls="medilifeMenu" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
 
@@ -43,36 +47,26 @@ include("core/meta.php");
                                     <!-- Menu Area -->
                                     <ul class="navbar-nav ml-auto">
                                         <li class="nav-item">
-                                            <a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
+                                            <a class="nav-link" href="index.php">Əsas</a>
                                         </li>
                                         <li class="nav-item dropdown">
-                                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Pages</a>
-                                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                                <a class="dropdown-item" href="index.php">Home</a>
-                                                <a class="dropdown-item" href="about-us.php">About Us</a>
-                                                <a class="dropdown-item" href="services..php">Services</a>
-                                                <a class="dropdown-item" href="blog.html">News</a>
-                                                <a class="dropdown-item" href="single-blog.html">News Details</a>
-                                                <a class="dropdown-item" href="contact.php">Contact</a>
-                                                <a class="dropdown-item" href="elements.html">Elements</a>
-                                                <a class="dropdown-item" href="index-icons.html">All Icons</a>
-                                            </div>
+
                                         </li>
                                         <li class="nav-item active">
-                                            <a class="nav-link" href="about-us.php">About Us</a>
+                                            <a class="nav-link" href="about-us.php">Haqqında<span class="sr-only">(current)</span></a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="services..php">Services</a>
+                                            <a class="nav-link" href="services..php">Xidmətlər</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="blog.html">News</a>
+                                            <a class="nav-link" href="blog.html">Xəbərlər</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="contact.php">Contact</a>
+                                            <a class="nav-link" href="contact.php">Əlagə</a>
                                         </li>
                                     </ul>
                                     <!-- Appointment Button -->
-                                    <a href="#" class="btn medilife-appoint-btn ml-30">For <span>emergencies</span> Click here</a>
+                                    <a href="#" class="btn medilife-appoint-btn ml-30">Dərhal <span>əlagə</span> </a>
                                 </div>
                             </nav>
                         </div>
@@ -414,7 +408,7 @@ include("core/meta.php");
                             <div class="copywrite-text">
                                 <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
 Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+
 </p>
 <p>Re-distributed by <a href="https://themewagon.com/" target="_blank">Themewagon</a>
 </p>

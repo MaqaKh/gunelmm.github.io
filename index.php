@@ -20,7 +20,7 @@ include("core/meta.php");
                     <div class="col-12 h-100">
                         <div class="h-100 d-md-flex justify-content-between align-items-center">
                             <p>
-<!--                                Welcome to <span>Medifile</span> template-->
+                                <!--                                Welcome to <span>Medifile</span> template-->
                             </p>
                             <p>Opening Hours : Monday to Saturday - 8am to 10pm Contact : <span>+12-823-611-8721</span></p>
                         </div>
@@ -50,17 +50,7 @@ include("core/meta.php");
                                             <a class="nav-link" href="index.php">Əsas<span class="sr-only">(current)</span></a>
                                         </li>
                                         <li class="nav-item dropdown">
-                                            <!-- <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Pages</a>
-                                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                                <a class="dropdown-item" href="index.php">Əsas</a>
-                                                <a class="dropdown-item" href="about-us.html">About Us</a>
-                                                <a class="dropdown-item" href="services.html">Services</a>
-                                                <a class="dropdown-item" href="blog.html">News</a>
-                                                <a class="dropdown-item" href="single-blog.html">News Details</a>
-                                                <a class="dropdown-item" href="contact.html">Contact</a>
-                                                <a class="dropdown-item" href="elements.html">Elements</a>
-                                                <a class="dropdown-item" href="index-icons.html">All Icons</a>
-                                            </div> -->
+
                                         </li>
                                         <li class="nav-item">
                                             <a class="nav-link" href="about-us.php">Haqqında</a>
