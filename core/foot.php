@@ -8,7 +8,7 @@
                 <div class="col-12 col-sm-6 col-xl-3">
                     <div class="footer-widget-area">
                         <div class="footer-logo">
-                            <img src="img/core-img/name.png" alt="">
+<!--                            <img src="img/core-img/name.png" alt="">-->
                         </div>
                         <p>Klinikamızda xəstələrimizə, fərdi müalicə planlarına və şəfqətli bir yanaşma ilə bağlı ən
                             yaxşı qayğı göstərin. Təcrübəli tibb mütəxəssislərimiz, hər bir xəstənin ən yüksək keyfiyyət

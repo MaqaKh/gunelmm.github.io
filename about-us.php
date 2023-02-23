@@ -121,7 +121,7 @@ include("core/meta.php");
                     <div class="video-box bg-overlay-black">
                         <img src="img/bg-img/video2.jpg" alt="">
                         <div class="play-btn">
-                            <a class="popup-video" href="http://www.youtube.com/watch?v=0O2aH4XLbto"><img src="img/core-img/play.png" alt=""></a>
+                            <a class="popup-video" href="http://www.youtube.com/watch?v=ne6GEXM_ejo"><img src="img/core-img/play.png" alt=""></a>
                             <h6>Həyatımızdan bir gün</h6>
                         </div>
                     </div>

@@ -99,12 +99,12 @@ include("core/meta.php");
                     <div class="contact-form">
                         <h5 class="mb-50">Biznen elaqə</h5>
 
-                        <form action="#" method="post">
+                        <form id="myForm">
                             <div class="form-group">
-                                <input type="text" class="form-control" id="contact-name" placeholder="Name">
+                                <input type="text" class="form-control"  name="name" id="name" placeholder="Name">
                             </div>
                             <div class="form-group">
-                                <input type="email" class="form-control" id="contact-email" placeholder="Email">
+                                <input type="email" class="form-control" name="email" id="email" placeholder="Email">
                             </div>
                             <div class="form-group">
                                 <textarea class="form-control" name="message" id="message" cols="30" rows="10" placeholder="Message"></textarea>
@@ -126,7 +126,7 @@ include("core/meta.php");
                                     <i class="icon-doctor"></i>
                                 </div>
                                 <div class="contact-meta">
-                                    <p>Address: 1481 Creekside Lane Avila <br>Beach, CA 93424 </p>
+                                    <p>Adress: Ataturk prospekti Ayna Sultanova heykəlinin yaxınlığı, Bakı 1108 </p>
                                 </div>
                             </div>
 
@@ -135,7 +135,7 @@ include("core/meta.php");
                                     <i class="icon-doctor"></i>
                                 </div>
                                 <div class="contact-meta">
-                                    <p>Phone: +53 345 7953 32453</p>
+                                    <p>Phone: +994 50 205 45 17</p>
                                 </div>
                             </div>
 
@@ -144,7 +144,7 @@ include("core/meta.php");
                                     <i class="icon-doctor"></i>
                                 </div>
                                 <div class="contact-meta">
-                                    <p>Email: yourmail@gmail.com</p>
+                                    <p>Email: info@sudvezi.az</p>
                                 </div>
                             </div>
 
@@ -185,6 +185,27 @@ include("core/meta.php");
     <?php
     include "core/foot.php";
     ?>
+
+    <script>
+        $(document).ready(function() {
+            $('#myForm').submit(function(e) {
+                e.preventDefault();
+                $.ajax({
+                    type: 'POST',
+                    url: 'send_mail.php',
+                    data: $('#myForm').serialize(),
+                    success: function(data) {
+                        alert('Email sent successfully!');
+                    },
+                    error: function(xhr, status, error) {
+                        console.log(xhr.responseText);
+                    }
+                });
+            });
+        });
+
+    </script>
+
     <!-- jQuery (Necessary for All JavaScript Plugins) -->
     <script src="js/jquery/jquery-2.2.4.min.js"></script>
     <!-- Popper js -->
@@ -198,6 +219,7 @@ include("core/meta.php");
     <!-- Google Maps -->
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAwuyLRa1uKNtbgx6xAJVmWy-zADgegA2s"></script>
     <script src="js/map-active.js"></script>
+
 
 </body>
 
