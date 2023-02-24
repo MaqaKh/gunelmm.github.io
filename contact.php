@@ -172,15 +172,15 @@ include("core/meta.php");
     </section>
 
     <!-- Google Maps -->
-    <div class="map-area mb-100">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <div id="googleMap" class="googleMap"></div>
-                </div>
-            </div>
-        </div>
-    </div>
+<!--    <div class="map-area mb-100">-->
+<!--        <div class="container">-->
+<!--            <div class="row">-->
+<!--                <div class="col-12">-->
+<!--                    <div id="googleMap" class="googleMap"></div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
 
     <?php
     include "core/foot.php";
@@ -188,12 +188,11 @@ include("core/meta.php");
 
     <script>
         $(document).ready(function() {
-            console.log("ready")
             $('#myForm').submit(function(e) {
                 e.preventDefault();
                 $.ajax({
                     type: 'POST',
-                    url: 'send_mail.php',
+                    url: 'core/send-mail.php',
                     data: $('#myForm').serialize(),
                     success: function(data) {
                         alert('Email sent successfully!');
@@ -218,7 +217,7 @@ include("core/meta.php");
     <!-- Active js -->
     <script src="js/active.js"></script>
     <!-- Google Maps -->
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAwuyLRa1uKNtbgx6xAJVmWy-zADgegA2s"></script>
+<!--    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAwuyLRa1uKNtbgx6xAJVmWy-zADgegA2s"></script>-->
     <script src="js/map-active.js"></script>
 
 
