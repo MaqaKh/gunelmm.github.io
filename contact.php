@@ -183,7 +183,7 @@ include("core/meta.php");
 <!--    </div>-->
 
     <?php
-    include "core/foot.php";
+    include "core/foot-contact-page.php";
     ?>
 
     <script>
