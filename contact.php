@@ -82,7 +82,7 @@ include("core/meta.php");
             <div class="row h-100 align-items-center">
                 <div class="col-12">
                     <div class="breadcumb-content">
-                        <h3 class="breadcumb-title">Contact</h3>
+                        <h3 class="breadcumb-title"></h3>
                         <p>Lorem ipsum dolor sit amet, consectetuer</p>
                     </div>
                 </div>
@@ -109,7 +109,7 @@ include("core/meta.php");
                             <div class="form-group">
                                 <textarea class="form-control" name="message" id="message" cols="30" rows="10" placeholder="Message"></textarea>
                             </div>
-                            <button type="submit" class="btn medilife-btn">Send Message <span>+</span></button>
+                            <button type="submit" id="submit" class="btn medilife-btn">Send Message <span>+</span></button>
                         </form>
                     </div>
                 </div>
@@ -188,6 +188,7 @@ include("core/meta.php");
 
     <script>
         $(document).ready(function() {
+            console.log("ready")
             $('#myForm').submit(function(e) {
                 e.preventDefault();
                 $.ajax({
