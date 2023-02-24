@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 
 <?php
@@ -44,7 +44,7 @@ include("core/meta.php");
                                             <a class="nav-link" href="about-us.php">Haqqında</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="services..php">Xidmətlər</a>
+                                            <a class="nav-link" href="services.php">Xidmətlər</a>
                                         </li>
                                         <li class="nav-item">
                                             <a class="nav-link" href="blog.php">Xəbərlər</a>
