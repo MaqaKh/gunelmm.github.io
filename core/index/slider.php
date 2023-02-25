@@ -1,4 +1,3 @@
-
 <section class="hero-area">
     <div class="hero-slides owl-carousel">
         <!-- Single Hero Slide -->
@@ -7,7 +6,7 @@
                 <div class="row h-100 align-items-center">
                     <div class="col-12">
                         <div class="hero-slides-content">
-                            <h2 data-animation="fadeInUp" data-delay="100ms">100% etibar edə biləcəyiniz <br>tibbi xidmətlər</h2>
+                            <h2 data-animation="fadeInUp" data-delay="100ms">Uzman Doktor Günel Memmedova</h2>
                             <h6 data-animation="fadeInUp" data-delay="400ms"></h6>
                             <a href="#" class="btn medilife-btn mt-50" data-animation="fadeInUp" data-delay="700ms"> Kəşf et <span>+</span></a>
                         </div>
