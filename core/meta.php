@@ -17,6 +17,8 @@
     <meta property="og:description" content="Mammoloq, Radioloq Dr.Gunel Memmedova sud vezi xercenginin müayinəsi və müalicəsi ilə məşquldur. Sud vezi xercengi elametleri, dos xercenginin"/>
     <meta property="og:image" content="uploads/TKRCD/logo.png"/>
     <link rel="icon" href="img/core-img/favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css
+">
 
     <!-- Style CSS -->
     <link rel="stylesheet" href="style.css">

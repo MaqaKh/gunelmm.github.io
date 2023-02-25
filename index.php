@@ -65,54 +65,6 @@ include("core/meta.php");
     </header>
     <!-- ***** Header Area End ***** -->
 
-    <!-- ***** Hero Area Start ***** -->
-    <section class="hero-area">
-        <div class="hero-slides owl-carousel">
-            <!-- Single Hero Slide -->
-            <div class="single-hero-slide bg-img bg-overlay-white" style="background-image: url(img/bg-img/uzman.png);">
-                <div class="container h-100">
-                    <div class="row h-100 align-items-center">
-                        <div class="col-12">
-                            <div class="hero-slides-content">
-                                <h2 data-animation="fadeInUp" data-delay="100ms">100% etibar edə biləcəyiniz <br>tibbi xidmətlər</h2>
-                                <h6 data-animation="fadeInUp" data-delay="400ms">Etibarlı tibbi xidmətlərimizlə rahat istirahət edin - sağlamlığınız bizim əsas prioritetimizdir!</h6>
-                                <a href="#" class="btn medilife-btn mt-50" data-animation="fadeInUp" data-delay="700ms"> Kəşf et <span>+</span></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Single Hero Slide -->
-            <div class="single-hero-slide bg-img bg-overlay-white" style="background-image: url(img/bg-img/hero_1_2.jpeg);">
-                <div class="container h-100">
-                    <div class="row h-100 align-items-center">
-                        <div class="col-12">
-                            <div class="hero-slides-content">
-                                <h2 data-animation="fadeInUp" data-delay="100ms">Keyfiyyətli tibbi xidmətdən  <br>rahatlıqla yararlanın</h2>
-                                <h6 data-animation="fadeInUp" data-delay="400ms">Mütəxəssislərdən ibarət mütəxəssis komandası və ən müasir tibbi texnologiyalarla etibar <br> edə biləcəyiniz keyfiyyətli tibbi xidmət üçün bizə etibar edin</h6>
-                                <a href="#" class="btn medilife-btn mt-50" data-animation="fadeInUp" data-delay="700ms">Kəşf et <span>+</span></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Single Hero Slide -->
-            <div class="single-hero-slide bg-img bg-overlay-white" style="background-image: url(img/bg-img/hero1_3.jpeg);">
-                <div class="container h-100">
-                    <div class="row h-100 align-items-center">
-                        <div class="col-12">
-                            <div class="hero-slides-content">
-                                <h2 data-animation="fadeInUp" data-delay="100ms">Etibar edə biləcəyiniz  <br>müstəsna tibbi xidmət</h2>
-                                <h6 data-animation="fadeInUp" data-delay="400ms">Bizim xüsusi komandamız bütün səhiyyə ehtiyaclarınız üçün ən müasir avadanlıq və <br> hərtərəfli xidmətlərlə etibar edə biləcəyiniz müstəsna tibbi xidmət təqdim edir.</h6>
-                                <a href="#" class="btn medilife-btn mt-50" data-animation="fadeInUp" data-delay="700ms">Kəşf et<span>+</span></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- ***** Hero Area End ***** -->
 
     <!-- ***** Book An Appoinment Area Start ***** -->
 <!--    <div class="medilife-book-an-appoinment-area">-->
@@ -313,139 +265,14 @@ include("core/meta.php");
             </div>
         </div>
     </section> -->
-    <!-- ***** Cool Facts Area End ***** -->
 
-    <!-- ***** Features Area Start ***** -->
-    <div class="medilife-features-area section-padding-100">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-12 col-lg-6">
-                    <div class="features-content">
-                        <h2>İnqilabçı bir müəssisədə xəstələri müalicə etməyin yeni üsulu</h2>
-                        <p>İnqilabçı müəssisə fərdi müalicə planlarına və bütöv müalicə təcrübələrinə üstünlük verən xəstələrə qulluq üçün unikal yanaşma təklif edir. Xəstələr ən müasir tibbi müalicələri, o cümlədən gen terapiyası və fərdiləşdirilmiş tibbin ən son üsullarını, həmçinin akupunktur və yoqa kimi bir sıra alternativ müalicələrə çıxışı gözləyə bilərlər. Müəssisənin yüksək təlim keçmiş tibb işçiləri hər bir xəstənin müalicə səyahəti boyu ən yüksək səviyyədə qayğı və dəstək almasını təmin etmək üçün yorulmadan çalışır.</p>
-                        <a href="#" class="btn medilife-btn mt-50">View the services <span>+</span></a>
-                    </div>
-                </div>
-                <div class="col-12 col-lg-6">
-                    <div class="features-thumbnail">
-                        <img src="img/bg-img/medical1.png" alt="">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- ***** Features Area End ***** -->
+    <?php
+    include_once "core/index/slider.php";
+    include_once "core/index/info.php";
+    include_once "core/index/gallery.php";
+    include_once "core/index/blog.php";
+    ?>
 
-    <!-- ***** Gallery Area Start ***** -->
-    <div class="medilife-gallery-area owl-carousel">
-        <!-- Single Gallery Item -->
-        <div class="single-gallery-item">
-            <img src="img/bg-img/d1.jpeg" alt="">
-            <div class="view-more-btn">
-                <a href="img/bg-img/d1.jpeg" class="btn gallery-img">See More +</a>
-            </div>
-        </div>
-        <!-- Single Gallery Item -->
-        <div class="single-gallery-item">
-            <img src="img/bg-img/d2.jpeg" alt="">
-            <div class="view-more-btn">
-                <a href="img/bg-img/d2.jpeg" class="btn gallery-img">See More +</a>
-            </div>
-        </div>
-        <!-- Single Gallery Item -->
-        <div class="single-gallery-item">
-            <img src="img/bg-img/d1.jpeg" alt="">
-            <div class="view-more-btn">
-                <a href="img/bg-img/d1.jpeg" class="btn gallery-img">See More +</a>
-            </div>
-        </div>
-
-        <!-- Single Gallery Item -->
-        <div class="single-gallery-item">
-            <img src="img/bg-img/d4.jpeg" alt="">
-            <div class="view-more-btn">
-                <a href="img/bg-img/d4.jpeg" class="btn gallery-img">See More +</a>
-            </div>
-        </div>
-    </div>
-    <!-- ***** Gallery Area End ***** -->
-
-    <!-- ***** Blog Area Start ***** -->
-    <div class="medilife-blog-area section-padding-100-0">
-        <div class="container">
-            <div class="row">
-                <!-- Single Blog Area -->
-                <div class="col-12 col-md-6 col-lg-4">
-                    <div class="single-blog-area mb-100">
-                        <!-- Post Thumbnail -->
-                        <div class="blog-post-thumbnail">
-                            <img src="img/blog-img/1.jpg" alt="">
-                            <!-- Post Date -->
-                            <div class="post-date">
-                                <a href="#">Jan 23, 2018</a>
-                            </div>
-                        </div>
-                        <!-- Post Content -->
-                        <div class="post-content">
-                            <div class="post-author">
-                                <a href="#"><img src="img/blog-img/p1.jpg" alt=""></a>
-                            </div>
-                            <a href="#" class="headline">New drog release soon</a>
-                            <p>Dolor sit amet, consecte tuer adipiscing elit, sed diam nonummy nibh euismod tincidunt.</p>
-                            <a href="#" class="comments">3 Comments</a>
-                        </div>
-                    </div>
-                </div>
-                <!-- Single Blog Area -->
-                <div class="col-12 col-md-6 col-lg-4">
-                    <div class="single-blog-area mb-100">
-                        <!-- Post Thumbnail -->
-                        <div class="blog-post-thumbnail">
-                            <img src="img/blog-img/2.jpg" alt="">
-                            <!-- Post Date -->
-                            <div class="post-date">
-                                <a href="#">Jan 23, 2018</a>
-                            </div>
-                        </div>
-                        <!-- Post Content -->
-                        <div class="post-content">
-                            <div class="post-author">
-                                <a href="#"><img src="img/blog-img/p2.jpg" alt=""></a>
-                            </div>
-                            <a href="#" class="headline">Free dental care</a>
-                            <p>Dolor sit amet, consecte tuer adipiscing elit, sed diam nonummy nibh euismod tincidunt.</p>
-                            <a href="#" class="comments">3 Comments</a>
-                        </div>
-                    </div>
-                </div>
-                <!-- Single Blog Area -->
-                <div class="col-12 col-md-6 col-lg-4">
-                    <div class="single-blog-area mb-100">
-                        <!-- Post Thumbnail -->
-                        <div class="blog-post-thumbnail">
-                            <img src="img/blog-img/3.jpg" alt="">
-                            <!-- Post Date -->
-                            <div class="post-date">
-                                <a href="#">Jan 23, 2018</a>
-                            </div>
-                        </div>
-                        <!-- Post Content -->
-                        <div class="post-content">
-                            <div class="post-author">
-                                <a href="#"><img src="img/blog-img/p3.jpg" alt=""></a>
-                            </div>
-                            <a href="#" class="headline">Good news for the pacients</a>
-                            <p>Dolor sit amet, consecte tuer adipiscing elit, sed diam nonummy nibh euismod tincidunt.</p>
-                            <a href="#" class="comments">3 Comments</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- ***** Blog Area End ***** -->
-
-    <!-- ***** Emergency Area Start ***** -->
 <!--    <div class="medilife-emergency-area section-padding-100-50">-->
 <!--        <div class="container">-->
 <!--            <div class="row">-->
