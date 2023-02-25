@@ -6,30 +6,14 @@ include("core/meta.php");
 ?>
 
 <body>
-    <!-- Preloader -->
     <div id="preloader">
         <div class="medilife-load"></div>
     </div>
 
-    <!-- ***** Header Area Start ***** -->
     <header class="header-area">
-        <!-- Top Header Area -->
-        <div class="top-header-area">
-            <div class="container h-100">
-                <div class="row h-100">
-                    <div class="col-12 h-100">
-                        <div class="h-100 d-md-flex justify-content-between align-items-center">
-                            <p>
-                                <!--                                Welcome to <span>Medifile</span> template-->
-                            </p>
-                            <p>Opening Hours : Monday to Saturday - 8am to 10pm Contact : <span>+12-823-611-8721</span></p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Main Header Area -->
+        <?php
+        include_once "core/top-header.php";
+        ?>
         <div class="main-header-area" id="stickyHeader">
             <div class="container h-100">
                 <div class="row h-100 align-items-center">
@@ -82,8 +66,8 @@ include("core/meta.php");
             <div class="row h-100 align-items-center">
                 <div class="col-12">
                     <div class="breadcumb-content">
-                        <h3 class="breadcumb-title"></h3>
-                        <p>Lorem ipsum dolor sit amet, consectetuer</p>
+                        <h3 class="breadcumb-title">Əlagə</h3>
+                        <p>Müraciətlərinizi ən tez zamanda cavablandırmağa həmişə hazırıq</p>
                     </div>
                 </div>
             </div>

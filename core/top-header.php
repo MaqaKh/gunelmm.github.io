@@ -4,9 +4,10 @@
             <div class="col-12 h-100">
                 <div class="h-100 d-md-flex justify-content-between align-items-center">
                     <p>
-                                                        Dr. Uzman <span>Gunel Memmedova </span>
+                                                        info@sudvezi.az<span></span>
                     </p>
-                    <p>Opening Hours : Monday to Saturday - 8am to 10pm Contact : <span>+12-823-611-8721</span></p>
+                    <p> B.e. 09:00 - 18:00 </p>
+                    <p> Contact : <span>+994 50 205 45 17</span> </p>
                 </div>
             </div>
         </div>
