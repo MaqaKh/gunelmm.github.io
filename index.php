@@ -48,7 +48,7 @@ include("core/meta.php");
                                             <a class="nav-link" href="contact.php">Əlagə</a>
                                         </li>
                                     </ul>
-                                    <a href="//api.whatsapp.com/send?phone=036206137021&text=WHATEVER_LINK_OR_TEXT_YOU_WANT_TO_SEND" class="btn medilife-appoint-btn ml-30">Dərhal <span>əlagə</span> </a>
+                                    <a href="//api.whatsapp.com/send?phone=0994502054517&text=Salam, mende xesteliknen bagli ashaqida narahatliqlarim var:" class="btn medilife-appoint-btn ml-30">Dərhal <span>əlagə</span> </a>
                                 </div>
                             </nav>
                         </div>
