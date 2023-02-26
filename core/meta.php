@@ -4,10 +4,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title>Uzman Dr. Günel Məmmədova - uzman ümumi cərrah,mammoloq</title>
+    <title>Uzman Dr. Günel Məmmədova - Uzman Ümumi Cərrah, Mammoloq</title>
     <meta name="description"
-          content="Uzman Dr. Gunel Məmmədova -uzman ümumi cərrah,mammoloq - sud vezi xercenginin müayinəsi və müalicəsi ilə məşquldur. Sud vezi xercengi elametleri, dos xercenginin"/>
-    <meta name="keywords" content="mamaloq,radioloq,sud vezi xercengi, dos xercengi, hekim radioloq, hekim mamaloq,sud vezi xercengi hekimi,sud vezi mualicesi, Bakı Senologiya Akademiyasi, bsa, BSA"/>
+          content="Uzman Dr. Gunel Məmmədova - Uzman Ümumi Cərrah, Mammoloq - Süd vezi xercenginin müayinəsi və müalicəsi ilə məşquldur. Sud vezi xercengi elametleri, dos xercenginin"/>
+    <meta name="keywords" content="mammoloq,radioloq,sud vezi xercengi, dos xercengi, hekim radioloq, hekim mamaloq,sud vezi xercengi hekimi,sud vezi mualicesi, Bakı Senologiya Akademiyasi, bsa, BSA"/>
     <meta name="author" content="Süd vəzi cərrahiyəsi - Uzman, Cərrah Günel Məmmədova"/>
     <link rel="alternate" hreflang="az" href="index.php"/>
     <meta property="og:url" content="https://sudvezi.az"/>
