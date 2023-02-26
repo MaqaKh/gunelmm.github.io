@@ -16,9 +16,9 @@
     </div>
     <!-- Single Gallery Item -->
     <div class="single-gallery-item">
-        <img src="img/bg-img/d1.jpeg" alt="">
+        <img src="img/bg-img/d3.jpeg" alt="">
         <div class="view-more-btn">
-            <a href="img/bg-img/d1.jpeg" class="btn gallery-img">See More +</a>
+            <a href="img/bg-img/d3.jpeg" class="btn gallery-img">See More +</a>
         </div>
     </div>
 

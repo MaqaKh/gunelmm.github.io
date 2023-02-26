@@ -6,25 +6,20 @@ include("core/meta.php");
 ?>
 
 <body>
-    <!-- Preloader -->
     <div id="preloader">
         <div class="medilife-load"></div>
     </div>
 
-    <!-- ***** Header Area Start ***** -->
     <header class="header-area">
-        <!-- Top Header Area -->
         <?php
         include "core/top-header.php";
         ?>
-        <!-- Main Header Area -->
         <div class="main-header-area" id="stickyHeader">
             <div class="container h-100">
                 <div class="row h-100 align-items-center">
                     <div class="col-12 h-100">
                         <div class="main-menu h-100">
                             <nav class="navbar h-100 navbar-expand-lg">
-                                <!-- Logo Area  -->
                                 <a class="navbar-brand" href="index.php"
                                 ><img style="max-width: 50%;" src="img/core-img/logo_new.png" alt="Logo">
                                 </a>
@@ -32,7 +27,6 @@ include("core/meta.php");
                                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#medilifeMenu" aria-controls="medilifeMenu" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
 
                                 <div class="collapse navbar-collapse" id="medilifeMenu">
-                                    <!-- Menu Area -->
                                     <ul class="navbar-nav ml-auto">
                                         <li class="nav-item">
                                             <a class="nav-link" href="index.php">Əsas</a>
@@ -53,7 +47,6 @@ include("core/meta.php");
                                             <a class="nav-link" href="contact.php">Əlagə</a>
                                         </li>
                                     </ul>
-                                    <!-- Appointment Button -->
                                     <a href="#" class="btn medilife-appoint-btn ml-30">Dərhal <span>əlagə</span> </a>
                                 </div>
                             </nav>
@@ -63,9 +56,7 @@ include("core/meta.php");
             </div>
         </div>
     </header>
-    <!-- ***** Header Area End ***** -->
 
-    <!-- ***** Breadcumb Area Start ***** -->
     <section class="breadcumb-area bg-img gradient-background-overlay" style="background-image: url(img/bg-img/breadcumb1.jpg);">
         <div class="container h-100">
             <div class="row h-100 align-items-center">
@@ -78,9 +69,7 @@ include("core/meta.php");
             </div>
         </div>
     </section>
-    <!-- ***** Breadcumb Area End ***** -->
 
-    <!-- ***** Features Area Start ***** -->
     <div class="medilife-features-area section-padding-100">
         <div class="container">
             <div class="row align-items-center">
@@ -93,21 +82,19 @@ include("core/meta.php");
                 </div>
                 <div class="col-12 col-lg-6">
                     <div class="features-thumbnail">
-                        <img src="img/bg-img/about1.jpg" alt="">
+                        <img src="img/bg-img/d8.jpeg" alt="">
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- ***** Features Area End ***** -->
 
-    <!-- ***** Video Area Start ***** -->
     <section class="medilife-video-area section-padding-100 bg-overlay bg-img" style="background-image: url(img/bg-img/video.jpg);">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-12 col-lg-8">
                     <div class="video-box bg-overlay-black">
-                        <img src="img/bg-img/video2.jpg" alt="">
+                        <img src="img/bg-img/uzman.jpeg" alt="">
                         <div class="play-btn">
                             <a class="popup-video" href="http://www.youtube.com/watch?v=ne6GEXM_ejo"><img src="img/core-img/play.png" alt=""></a>
                             <h6>Həyatımızdan bir gün</h6>
@@ -116,64 +103,63 @@ include("core/meta.php");
                 </div>
                 <div class="col-12 col-lg-4">
                     <div class="video-content">
-                        <h2>A day at Medilife -Video</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Lorem ipsum dolor sit amet, consectetuer adipiscing eli. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+                        <h2>Uzman Dr. Günəl Məmədova</h2>
+                        <p>Dr. Günəl Məmmədova  - Marmara üniversitetinində, cərrahpaşa fakultəsində təhsil almışdır. Uzmanlığı MarmaraUniversitetində keşmiş. Bundan əlavə Memorial Hospitals İstanbul 5 illik iş təcrübəsinə malikdir</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <!-- ***** Video Area End ***** -->
 
     <!-- ***** Skilss Area Start ***** -->
-    <section class="our-skills-area text-center section-padding-100-0">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 col-sm-6 col-md-3 col-lg-2">
-                    <div class="single-pie-bar" data-percent="90">
-                        <canvas class="bar-circle" width="100" height="100"></canvas>
-                        <h5>Donations</h5>
-                        <p>Dolor sit amet</p>
-                    </div>
-                </div>
-                <div class="col-12 col-sm-6 col-md-3 col-lg-2">
-                    <div class="single-pie-bar" data-percent="65">
-                        <canvas class="bar-circle" width="100" height="100"></canvas>
-                        <h5>Ambition</h5>
-                        <p>Dolor sit amet</p>
-                    </div>
-                </div>
-                <div class="col-12 col-sm-6 col-md-3 col-lg-2">
-                    <div class="single-pie-bar" data-percent="25">
-                        <canvas class="bar-circle" width="100" height="100"></canvas>
-                        <h5>Good Luck</h5>
-                        <p>Dolor sit amet</p>
-                    </div>
-                </div>
-                <div class="col-12 col-sm-6 col-md-3 col-lg-2">
-                    <div class="single-pie-bar" data-percent="69">
-                        <canvas class="bar-circle" width="100" height="100"></canvas>
-                        <h5>High Tech</h5>
-                        <p>Dolor sit amet</p>
-                    </div>
-                </div>
-                <div class="col-12 col-sm-6 col-md-3 col-lg-2">
-                    <div class="single-pie-bar" data-percent="83">
-                        <canvas class="bar-circle" width="100" height="100"></canvas>
-                        <h5>Science</h5>
-                        <p>Dolor sit amet</p>
-                    </div>
-                </div>
-                <div class="col-12 col-sm-6 col-md-3 col-lg-2">
-                    <div class="single-pie-bar" data-percent="38">
-                        <canvas class="bar-circle" width="100" height="100"></canvas>
-                        <h5>Creativity</h5>
-                        <p>Dolor sit amet</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+<!--    <section class="our-skills-area text-center section-padding-100-0">-->
+<!--        <div class="container">-->
+<!--            <div class="row">-->
+<!--                <div class="col-12 col-sm-6 col-md-3 col-lg-2">-->
+<!--                    <div class="single-pie-bar" data-percent="90">-->
+<!--                        <canvas class="bar-circle" width="100" height="100"></canvas>-->
+<!--                        <h5>Donations</h5>-->
+<!--                        <p>Dolor sit amet</p>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                <div class="col-12 col-sm-6 col-md-3 col-lg-2">-->
+<!--                    <div class="single-pie-bar" data-percent="65">-->
+<!--                        <canvas class="bar-circle" width="100" height="100"></canvas>-->
+<!--                        <h5>Ambition</h5>-->
+<!--                        <p>Dolor sit amet</p>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                <div class="col-12 col-sm-6 col-md-3 col-lg-2">-->
+<!--                    <div class="single-pie-bar" data-percent="25">-->
+<!--                        <canvas class="bar-circle" width="100" height="100"></canvas>-->
+<!--                        <h5>Good Luck</h5>-->
+<!--                        <p>Dolor sit amet</p>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                <div class="col-12 col-sm-6 col-md-3 col-lg-2">-->
+<!--                    <div class="single-pie-bar" data-percent="69">-->
+<!--                        <canvas class="bar-circle" width="100" height="100"></canvas>-->
+<!--                        <h5>High Tech</h5>-->
+<!--                        <p>Dolor sit amet</p>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                <div class="col-12 col-sm-6 col-md-3 col-lg-2">-->
+<!--                    <div class="single-pie-bar" data-percent="83">-->
+<!--                        <canvas class="bar-circle" width="100" height="100"></canvas>-->
+<!--                        <h5>Science</h5>-->
+<!--                        <p>Dolor sit amet</p>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                <div class="col-12 col-sm-6 col-md-3 col-lg-2">-->
+<!--                    <div class="single-pie-bar" data-percent="38">-->
+<!--                        <canvas class="bar-circle" width="100" height="100"></canvas>-->
+<!--                        <h5>Creativity</h5>-->
+<!--                        <p>Dolor sit amet</p>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </section>-->
     <!-- ***** Skills Area End ***** -->
 
     <!-- ***** Tabs Area Start ***** -->
@@ -184,22 +170,22 @@ include("core/meta.php");
                     <div class="medilife-tabs-content">
                         <ul class="nav nav-tabs" id="myTab" role="tablist">
                             <li class="nav-item">
-                                <a class="nav-link" id="institution-tab" data-toggle="tab" href="#institution" role="tab" aria-controls="institution" aria-selected="false">Institution</a>
+                                <a class="nav-link" id="institution-tab" data-toggle="tab" href="#institution" role="tab" aria-controls="institution" aria-selected="false">Təhsil</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" id="faq-tab" data-toggle="tab" href="#faq" role="tab" aria-controls="faq" aria-selected="false">FAQ</a>
+                                <a class="nav-link" id="faq-tab" data-toggle="tab" href="#faq" role="tab" aria-controls="faq" aria-selected="false">Uzmanlıq</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link active" id="specialities-tab" data-toggle="tab" href="#specialities" role="tab" aria-controls="specialities" aria-selected="true">Specialities</a>
+                                <a class="nav-link active" id="specialities-tab" data-toggle="tab" href="#specialities" role="tab" aria-controls="specialities" aria-selected="true">İş təcrübəsi</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" id="laboratory-tab" data-toggle="tab" href="#laboratory" role="tab" aria-controls="laboratory" aria-selected="false">Laboratory</a>
+                                <a class="nav-link" id="laboratory-tab" data-toggle="tab" href="#laboratory" role="tab" aria-controls="laboratory" aria-selected="false">Konfraslar</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" id="emergencies-tab" data-toggle="tab" href="#emergencies" role="tab" aria-controls="emergencies" aria-selected="false">Emergencies</a>
+                                <a class="nav-link" id="emergencies-tab" data-toggle="tab" href="#emergencies" role="tab" aria-controls="emergencies" aria-selected="false">Bio</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" id="scolarship-tab" data-toggle="tab" href="#scolarship" role="tab" aria-controls="scolarship" aria-selected="false">Scolarship Programs</a>
+                                <a class="nav-link" id="scolarship-tab" data-toggle="tab" href="#scolarship" role="tab" aria-controls="scolarship" aria-selected="false">Əlavə</a>
                             </li>
                         </ul>
 

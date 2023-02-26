@@ -11,28 +11,23 @@ include("core/meta.php");
         <div class="medilife-load"></div>
     </div>
 
-    <!-- ***** Header Area Start ***** -->
     <header class="header-area">
-        <!-- Top Header Area -->
         <?php
         include "core/top-header.php";
         ?>
-        <!-- Main Header Area -->
         <div class="main-header-area" id="stickyHeader">
             <div class="container h-100">
                 <div class="row h-100 align-items-center">
                     <div class="col-12 h-100">
                         <div class="main-menu h-100">
                             <nav class="navbar h-100 navbar-expand-lg">
-                                <!-- Logo Area  -->
-                                <a class="navbar-brand" href="index.php"
-                                ><img style="max-width: 50%;" src="img/core-img/logo_new.png" alt="Logo">
+                                <a class="navbar-brand" style="width: 123px; border-radius:50px;" href="index.php"
+                                ><img src="img/core-img/logo_new_2.png" alt="Logo">
                                 </a>
 
                                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#medilifeMenu" aria-controls="medilifeMenu" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
 
                                 <div class="collapse navbar-collapse" id="medilifeMenu">
-                                    <!-- Menu Area -->
                                     <ul class="navbar-nav ml-auto">
                                         <li class="nav-item active">
                                             <a class="nav-link" href="index.php">Əsas<span class="sr-only">(current)</span></a>
@@ -53,8 +48,7 @@ include("core/meta.php");
                                             <a class="nav-link" href="contact.php">Əlagə</a>
                                         </li>
                                     </ul>
-                                    <!-- Appointment Button -->
-                                    <a href="#" class="btn medilife-appoint-btn ml-30">Dərhal <span>əlagə</span> </a>
+                                    <a href="//api.whatsapp.com/send?phone=036206137021&text=WHATEVER_LINK_OR_TEXT_YOU_WANT_TO_SEND" class="btn medilife-appoint-btn ml-30">Dərhal <span>əlagə</span> </a>
                                 </div>
                             </nav>
                         </div>
