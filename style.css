@@ -598,7 +598,7 @@ img {
     height: 110px;
     position: relative;
     z-index: 1;
-    background-color: rgba(0, 108, 255, 0.5);
+    background-color:#f0ffff;
     -webkit-transition-duration: 500ms;
     transition-duration: 500ms;
 }
@@ -620,7 +620,7 @@ img {
     z-index: 10000 !important;
     height: 80px;
     box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2);
-    background-color: #002b51;
+    background-color: #f0ffff;
 }
 
 @media only screen and (max-width: 767px) {
@@ -633,7 +633,7 @@ img {
     font-size: 14px;
     text-transform: capitalize;
     padding: 10px 20px;
-    color: #ffffff;
+    color: #647589;
     font-weight: 500;
     margin: 0 1px;
 }
@@ -667,6 +667,7 @@ img {
 }
 
 .header-area .main-menu .nav-item.active .nav-link {
+    color: white;
     background-color: #006cff;
 }
 

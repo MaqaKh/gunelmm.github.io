@@ -21,8 +21,8 @@ include("core/meta.php");
                     <div class="col-12 h-100">
                         <div class="main-menu h-100">
                             <nav class="navbar h-100 navbar-expand-lg">
-                                <a class="navbar-brand" style="width: 123px; border-radius:50px;" href="index.php"
-                                ><img src="img/core-img/logo_new_2.png" alt="Logo">
+                                <a class="navbar-brand" style="width: 123px; border-radius:50px; background-color: #f0ffff;" href="index.php"
+                                ><img src="img/core-img/logo_new.png" alt="Logo">
                                 </a>
 
                                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#medilifeMenu" aria-controls="medilifeMenu" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
