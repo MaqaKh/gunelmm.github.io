@@ -19,10 +19,9 @@
                     <div class="col-12 h-100">
                         <div class="main-menu h-100">
                             <nav class="navbar h-100 navbar-expand-lg">
-                                <a class="navbar-brand" href="index.php"
-                                ><img style="max-width: 50%;" src="img/core-img/logo_new.png" alt="Logo">
+                                <a class="navbar-brand" style="width: 123px; border-radius:50px; background-color: #f0ffff;" href="index.php"
+                                ><img src="img/core-img/logo_new.png" alt="Logo">
                                 </a>
-
                                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#medilifeMenu" aria-controls="medilifeMenu" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
 
                                 <div class="collapse navbar-collapse" id="medilifeMenu">
@@ -47,7 +46,7 @@
                                         </li>
                                     </ul>
                                     <!-- Appointment Button -->
-                                    <a href="#" class="btn medilife-appoint-btn ml-30">Dərhal <span>əlagə</span> </a>
+                                    <a href="https://wa.me/994502054517?text=I'm%20interested%20in%20your%20car%20for%20sale" class="btn medilife-appoint-btn ml-30">Dərhal <span>əlagə</span> </a>
                                 </div>
                             </nav>
                         </div>
