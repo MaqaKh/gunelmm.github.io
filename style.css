@@ -92,9 +92,9 @@ a:hover, a:focus {
     background-color: #006cff;
 }
 
-.medilife-load {
-    -webkit-animation: 2000ms linear 0s normal none infinite running medilife-load;
-    animation: 2000ms linear 0s normal none infinite running medilife-load;
+.doc-page-load {
+    -webkit-animation: 2000ms linear 0s normal none infinite running doc-page-load;
+    animation: 2000ms linear 0s normal none infinite running doc-page-load;
     background: transparent;
     border-color: #ffffff;
     border-top-color: #006cff;
@@ -111,7 +111,7 @@ a:hover, a:focus {
     z-index: 9;
 }
 
-@-webkit-keyframes medilife-load {
+@-webkit-keyframes doc-page-load {
     0% {
         -webkit-transform: rotate(0deg);
         transform: rotate(0deg);
@@ -122,7 +122,7 @@ a:hover, a:focus {
     }
 }
 
-@keyframes medilife-load {
+@keyframes doc-page-load {
     0% {
         -webkit-transform: rotate(0deg);
         transform: rotate(0deg);

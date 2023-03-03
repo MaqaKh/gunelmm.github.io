@@ -7,7 +7,7 @@ include "core/meta.php";
 
 <body>
 <div id="preloader">
-    <div class="medilife-load"></div>
+    <div class="doc-page-load"></div>
 </div>
 
 <header class="header-area">

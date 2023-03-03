@@ -97,8 +97,8 @@ a {
     background-color: $primary-color;
 }
 
-.medilife-load {
-    @include animation(2000ms linear 0s normal none infinite running medilife-load);
+.doc-page-load {
+    @include animation(2000ms linear 0s normal none infinite running doc-page-load);
     background: transparent;
     border-color: $color-white;
     border-top-color: $primary-color;
@@ -115,7 +115,7 @@ a {
     z-index: 9;
 }
 
-@-webkit-keyframes medilife-load {
+@-webkit-keyframes doc-page-load {
     0% {
         @include transform(rotate(0deg));
     }
@@ -124,7 +124,7 @@ a {
     }
 }
 
-@keyframes medilife-load {
+@keyframes doc-page-load {
     0% {
         @include transform(rotate(0deg));
     }
