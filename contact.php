@@ -147,8 +147,8 @@ include("core/meta.php");
                         <!-- medilife Emergency Card -->
                         <div class="medilife-emergency-card bg-img bg-overlay" style="background-image: url(img/bg-img/about1.jpg);">
                             <i class="icon-smartphone"></i>
-                            <h2>For Emergency calls</h2>
-                            <h3>+12-823-611-8721</h3>
+                            <h2>Təcili Zəng üçün</h2>
+                            <h3>+994 50 205 45 17</h3>
                         </div>
                     </div>
                 </div>

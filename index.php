@@ -274,7 +274,7 @@ include("core/meta.php");
 <!--                    <div class="emergency-content">-->
 <!--                        <i class="icon-smartphone"></i>-->
 <!--                        <h2>Təcili zənglər üçün</h2>-->
-<!--                        <h3>+12-823-611-8721</h3>-->
+<!--                        <h3>+994 50 205 45 17</h3>-->
 <!--                    </div>-->
 <!--                </div>-->
 <!--                <div class="col-12 col-lg-6">-->
