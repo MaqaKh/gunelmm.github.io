@@ -18,6 +18,8 @@ $querySingleApartment = "SELECT * FROM blog where ID = '$id' LIMIT 1";
 $result = $conn->query($querySingleApartment);
 $row = $result->fetch_array(MYSQLI_ASSOC);
 
+$latestNews = $conn->query("SELECT * FROM blog  ORDER BY date DESC LIMIT 3");
+
 ?>
 
 <body>
@@ -37,8 +39,9 @@ $row = $result->fetch_array(MYSQLI_ASSOC);
                     <div class="col-12 h-100">
                         <div class="main-menu h-100">
                             <nav class="navbar h-100 navbar-expand-lg">
-                                <a class="navbar-brand" href="index.php"
-                                ><img style="max-width: 50%;" src="img/core-img/logo_new.png" alt="Logo">
+                                <a class="navbar-brand" style="width: 123px; border-radius:50px; background-color: #f0ffff;"
+                                   href="index.php"
+                                ><img src="img/core-img/logo_new.png" alt="Logo">
                                 </a>
 
                                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#medilifeMenu" aria-controls="medilifeMenu" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
@@ -82,7 +85,7 @@ $row = $result->fetch_array(MYSQLI_ASSOC);
             <div class="row h-100 align-items-center">
                 <div class="col-12">
                     <div class="breadcumb-content">
-                        <h3 class="breadcumb-title">Blog</h3>
+                        <h3 class="breadcumb-title">Xəbərlər</h3>
                         <p>Son artiklardan məlumatlı olun</p>
                     </div>
                 </div>
@@ -109,7 +112,7 @@ $row = $result->fetch_array(MYSQLI_ASSOC);
                         <!-- Post Content -->
                         <div class="post-content">
                             <div class="post-author">
-                                <a href="#"><img style="border-radius: 20px !important;" src="img/bg-img/uzman.png"  alt=""></a>
+                                <a href="#"><img  src="img/blog-img/uzman_profile.png"  alt=""></a>
                             </div>
                             <a href="#" class="headline mb-0"><?php echo $row['title']; ?> </a>
                             <div class="post-meta">
@@ -143,35 +146,24 @@ $row = $result->fetch_array(MYSQLI_ASSOC);
                             <h5>Latest News</h5>
                             <div class="widget-blog-post">
                                 <!-- Single Blog Post -->
-                                <div class="widget-single-blog-post d-flex align-items-center">
-                                    <div class="widget-post-thumbnail pr-3">
-                                        <img src="img/blog-img/ln1.jpg" alt="">
+                                <?php foreach ($latestNews as $news) { ?>
+
+                                    <div class="widget-single-blog-post d-flex align-items-center">
+                                        <div class="widget-post-thumbnail pr-3">
+                                            <img src="<?php echo $news['image']; ?>" alt="">
+                                        </div>
+                                        <div class="widget-post-content">
+                                            <a href="detail.php?id=<?php echo $news['id']; ?>">
+                                                <?php echo strlen($news['title']) > 27 ? substr($news['content'], 0, 27) . '...' : $news['title']; ?>
+                                            </a>
+                                            <p><?php echo $news['date']; ?></p>
+                                        </div>
                                     </div>
-                                    <div class="widget-post-content">
-                                        <a href="#">A big discovery for medicine</a>
-                                        <p>Dec 02, 2017</p>
-                                    </div>
-                                </div>
-                                <!-- Single Blog Post -->
-                                <div class="widget-single-blog-post d-flex align-items-center">
-                                    <div class="widget-post-thumbnail pr-3">
-                                        <img src="img/blog-img/ln2.jpg" alt="">
-                                    </div>
-                                    <div class="widget-post-content">
-                                        <a href="#">Dentistry for everybody</a>
-                                        <p>Dec 02, 2017</p>
-                                    </div>
-                                </div>
-                                <!-- Single Blog Post -->
-                                <div class="widget-single-blog-post d-flex align-items-center">
-                                    <div class="widget-post-thumbnail pr-3">
-                                        <img src="img/blog-img/ln3.jpg" alt="">
-                                    </div>
-                                    <div class="widget-post-content">
-                                        <a href="#">When it’s time to take pills</a>
-                                        <p>Dec 02, 2017</p>
-                                    </div>
-                                </div>
+
+                                    <?php
+                                }
+                                ?>
+
                             </div>
                         </div>
 

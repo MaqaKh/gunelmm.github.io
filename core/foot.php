@@ -1,4 +1,8 @@
-<!-- ***** Footer Area Start ***** -->
+<?php
+$conn = OpenCon();
+mysqli_set_charset($conn, "utf8");
+$latestNews = $conn->query("SELECT * FROM blog  ORDER BY date DESC LIMIT 3");
+?>
 <footer class="footer-area section-padding-100">
     <!-- Main Footer Area -->
     <div class="main-footer-area">
@@ -30,35 +34,23 @@
                         </div>
                         <div class="widget-blog-post">
                             <!-- Single Blog Post -->
-                            <div class="widget-single-blog-post d-flex">
-                                <div class="widget-post-thumbnail">
-                                    <img src="img/blog-img/ln1.jpg" alt="">
+                            <?php foreach ($latestNews as $news) { ?>
+
+                                <div class="widget-single-blog-post d-flex">
+                                    <div class="widget-post-thumbnail">
+                                        <img src="<?php echo $news['image']; ?>" alt="">
+                                    </div>
+                                    <div class="widget-post-content">
+                                        <a href="detail.php?id=<?php echo $news['id']; ?>">
+                                            <?php echo strlen($news['title']) > 17 ? substr($news['content'], 0, 17) . '...' : $news['title']; ?>
+                                        </a>
+                                        <p><?php echo $news['date']; ?></p>
+                                    </div>
                                 </div>
-                                <div class="widget-post-content">
-                                    <a href="#">Better Health Care</a>
-                                    <p>Dec 02, 2017</p>
-                                </div>
-                            </div>
-                            <!-- Single Blog Post -->
-                            <div class="widget-single-blog-post d-flex">
-                                <div class="widget-post-thumbnail">
-                                    <img src="img/blog-img/ln2.jpg" alt="">
-                                </div>
-                                <div class="widget-post-content">
-                                    <a href="#">A new drug is tested</a>
-                                    <p>Dec 02, 2017</p>
-                                </div>
-                            </div>
-                            <!-- Single Blog Post -->
-                            <div class="widget-single-blog-post d-flex">
-                                <div class="widget-post-thumbnail">
-                                    <img src="img/blog-img/ln3.jpg" alt="">
-                                </div>
-                                <div class="widget-post-content">
-                                    <a href="#">Health department advice</a>
-                                    <p>Dec 02, 2017</p>
-                                </div>
-                            </div>
+
+                            <?php
+                                }
+                            ?>
                         </div>
                     </div>
                 </div>

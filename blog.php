@@ -64,16 +64,14 @@ $rows = $conn->query("SELECT * FROM blog ORDER BY ID LIMIT 100");
         </div>
     </div>
 </header>
-<!-- ***** Header Area End ***** -->
 
-<!-- ***** Breadcumb Area Start ***** -->
 <section class="breadcumb-area bg-img gradient-background-overlay"
          style="background-image: url(img/bg-img/breadcumb2.jpg);">
     <div class="container h-100">
         <div class="row h-100 align-items-center">
             <div class="col-12">
                 <div class="breadcumb-content">
-                    <h3 class="breadcumb-title">Blog</h3>
+                    <h3 class="breadcumb-title">Xəbərlər</h3>
                     <p>Bizim haqqında daha məlumatlı olun</p>
                 </div>
             </div>
@@ -97,10 +95,10 @@ $rows = $conn->query("SELECT * FROM blog ORDER BY ID LIMIT 100");
                                 </div>
                                 <div class="post-content">
                                     <div class="post-author">
-                                        <img style="border-radius:10px;" src="img/bg-img/uzman.png" alt="">
+                                        <img style="border-radius:10px;" src="img/blog-img/uzman_profile.png" alt="">
                                     </div>
                                     <a href='detail.php?id=<?php echo $row['id']; ?>' class="headline"><?php echo $row['title']; ?></a>
-                                    <p><?php echo strlen($row['content']) > 120 ? substr($row['content'], 0, 117) . '...' : $row['content']; ?></p>
+                                    <p><?php echo strlen($row['content']) > 220 ? substr($row['content'], 0, 217) . '...' : $row['content']; ?></p>
                                 </div>
                             </div>
                         </div>

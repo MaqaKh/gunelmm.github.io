@@ -2,14 +2,15 @@
 <html lang="en">
 
 <?php
+include 'core/dbconnection.php';
 include("core/meta.php");
 ?>
 
 <body>
     <!-- Preloader -->
-    <div id="preloader">
-        <div class="doc-page-load"></div>
-    </div>
+<!--    <div id="preloader">-->
+<!--        <div class="doc-page-load"></div>-->
+<!--    </div>-->
 
     <header class="header-area">
         <?php
