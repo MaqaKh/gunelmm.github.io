@@ -3,6 +3,7 @@
 
 <?php
 include("core/meta.php");
+include 'core/dbconnection.php';
 ?>
 
 <body>
