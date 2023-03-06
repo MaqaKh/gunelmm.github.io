@@ -8,7 +8,7 @@
                         <div class="hero-slides-content">
                             <h2 data-animation="fadeInUp" data-delay="100ms">Uzman Doktor Günel Memmedova</h2>
                             <h6 data-animation="fadeInUp" data-delay="400ms"></h6>
-                            <a href="#" class="btn medilife-btn mt-50" data-animation="fadeInUp" data-delay="700ms"> Kəşf et <span>+</span></a>
+                            <a href="services.php" class="btn medilife-btn mt-50" data-animation="fadeInUp" data-delay="700ms"> Kəşf et <span>+</span></a>
                         </div>
                     </div>
                 </div>
@@ -22,7 +22,7 @@
                         <div class="hero-slides-content">
                             <h2 data-animation="fadeInUp" data-delay="100ms">Keyfiyyətli tibbi xidmətdən  <br>rahatlıqla yararlanın</h2>
                             <h6 data-animation="fadeInUp" data-delay="400ms"></h6>
-                            <a href="#" class="btn medilife-btn mt-50" data-animation="fadeInUp" data-delay="700ms">Kəşf et <span>+</span></a>
+                            <a href="services.php" class="btn medilife-btn mt-50" data-animation="fadeInUp" data-delay="700ms">Kəşf et <span>+</span></a>
                         </div>
                     </div>
                 </div>
@@ -36,7 +36,7 @@
                         <div class="hero-slides-content">
                             <h2 data-animation="fadeInUp" data-delay="100ms">Etibar edə biləcəyiniz  <br>müstəsna tibbi xidmət</h2>
                             <h6 data-animation="fadeInUp" data-delay="400ms"></h6>
-                            <a href="#" class="btn medilife-btn mt-50" data-animation="fadeInUp" data-delay="700ms">Kəşf et<span>+</span></a>
+                            <a href="services.php" class="btn medilife-btn mt-50" data-animation="fadeInUp" data-delay="700ms">Kəşf et<span>+</span></a>
                         </div>
                     </div>
                 </div>

@@ -5,7 +5,7 @@
             <div class="col-12 col-md-6 col-lg-4">
                 <div class="single-service-area d-flex">
                     <div class="service-icon">
-                        <i class="icon-emergency-call-1"></i>
+                        <i class="icon-ribbon"></i>
                     </div>
                     <div class="service-content">
                         <h5>USM</h5>
@@ -50,7 +50,7 @@
             <div class="col-12 col-md-6 col-lg-4">
                 <div class="single-service-area d-flex">
                     <div class="service-icon">
-                        <i class="icon-helicopter"></i>
+                        <i class="icon-cardiogram-5"></i>
                     </div>
                     <div class="service-content">
                         <h5>MRT</h5>
@@ -62,7 +62,7 @@
             <div class="col-12 col-md-6 col-lg-4">
                 <div class="single-service-area d-flex">
                     <div class="service-icon">
-                        <i class="icon-flask"></i>
+                        <i class="icon-scanner"></i>
                     </div>
                     <div class="service-content">
                         <h5>KRT</h5>

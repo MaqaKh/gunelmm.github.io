@@ -640,6 +640,7 @@ img {
 
 .header-area .main-menu .nav-link:hover {
     background-color: #006cff;
+    color: white;
 }
 
 .header-area .main-menu .nav-link:focus {
