@@ -19,10 +19,10 @@ $latestNews = $conn->query("SELECT * FROM blog  ORDER BY date DESC LIMIT 3");
                             keyfiyyətini aldığını, gündəlik yoxlamalar və ya mürəkkəb tibbi prosedurları tələb
                             etmələrini təmin etməyə həsr olunmuşdur.</p>
                         <div class="footer-social-info">
-                            <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
-                            <a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a>
+                            <a href="https://www.instagram.com/uzman_cerrah_gunel_mammadova/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                            <a href="https://www.youtube.com/@uzman_cerrah_gunel_mammado605"><i class="fa fa-youtube" aria-hidden="true"></i></a>
                             <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                            <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                            <a href="https://www.linkedin.com/in/op-dr-g%C3%BCnel-mammadova-0b9b59220"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
                         </div>
                     </div>
                 </div>
@@ -30,7 +30,7 @@ $latestNews = $conn->query("SELECT * FROM blog  ORDER BY date DESC LIMIT 3");
                 <div class="col-12 col-sm-6 col-xl-3">
                     <div class="footer-widget-area">
                         <div class="widget-title">
-                            <h6>Latest News</h6>
+                            <h6>Axirıncı xəbərlər</h6>
                         </div>
                         <div class="widget-blog-post">
                             <!-- Single Blog Post -->
@@ -58,17 +58,17 @@ $latestNews = $conn->query("SELECT * FROM blog  ORDER BY date DESC LIMIT 3");
                 <div class="col-12 col-sm-6 col-xl-3">
                     <div class="footer-widget-area">
                         <div class="widget-title">
-                            <h6>Contact Form</h6>
+                            <h6>Əlagə Formu</h6>
                         </div>
                         <div class="footer-contact-form">
                             <form id="myForm">
                                 <input type="text" class="form-control border-top-0 border-right-0 border-left-0"
-                                       name="footer-name" name="name" id="name" placeholder="Name">
+                                       name="footer-name" name="name" id="name" placeholder="Ad">
                                 <input type="email" class="form-control border-top-0 border-right-0 border-left-0"
                                        name="footer-email" name="email" id="email"  placeholder="Email">
                                 <textarea name="message" class="form-control border-top-0 border-right-0 border-left-0"
-                                          name="message" id="message" placeholder="Message"></textarea>
-                                <button type="submit" class="btn medilife-btn">Contact Us <span>+</span></button>
+                                          name="message" id="message" placeholder="Mesaj"></textarea>
+                                <button type="submit" class="btn medilife-btn">Əlagə <span>+</span></button>
                             </form>
                         </div>
                     </div>
@@ -77,14 +77,14 @@ $latestNews = $conn->query("SELECT * FROM blog  ORDER BY date DESC LIMIT 3");
                 <div class="col-12 col-sm-6 col-xl-3">
                     <div class="footer-widget-area">
                         <div class="widget-title">
-                            <h6>News Letter</h6>
+                            <h6>Abunə ol</h6>
                         </div>
 
                         <div class="footer-newsletter-area">
                             <form action="#">
                                 <input type="email" class="form-control border-0 mb-0" name="newsletterEmail"
-                                       id="newsletterEmail" placeholder="Your Email Here">
-                                <button type="submit">Subscribe</button>
+                                       id="newsletterEmail" placeholder="Sizin emailiniz">
+                                <button type="submit">Abunə ol</button>
                             </form>
                         </div>
                     </div>
