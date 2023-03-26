@@ -8,33 +8,48 @@
 
 
 <url>
-  <loc>https://sudvezi.az/</loc>
-  <lastmod>2023-02-24T21:11:09+00:00</lastmod>
+  <loc>https://www.sudvezi.az/</loc>
+  <lastmod>2023-03-06T10:09:53+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://sudvezi.az/index.php</loc>
-  <lastmod>2023-02-24T21:11:09+00:00</lastmod>
+  <loc>https://www.sudvezi.az/index.php</loc>
+  <lastmod>2023-03-06T10:09:53+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://sudvezi.az/about-us.php</loc>
-  <lastmod>2023-02-24T21:11:09+00:00</lastmod>
+  <loc>https://www.sudvezi.az/about-us.php</loc>
+  <lastmod>2023-03-06T10:09:53+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://sudvezi.az/services..php</loc>
-  <lastmod>2023-02-24T21:11:09+00:00</lastmod>
+  <loc>https://www.sudvezi.az/services.php</loc>
+  <lastmod>2023-03-06T10:09:53+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://sudvezi.az/blog.php</loc>
-  <lastmod>2023-02-24T21:11:09+00:00</lastmod>
+  <loc>https://www.sudvezi.az/blog.php</loc>
+  <lastmod>2023-03-06T10:09:53+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://sudvezi.az/contact.php</loc>
-  <lastmod>2023-02-24T21:11:09+00:00</lastmod>
+  <loc>https://www.sudvezi.az/contact.php</loc>
+  <lastmod>2023-03-06T10:09:53+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.sudvezi.az/detail.php?id=1</loc>
+  <lastmod>2023-03-06T10:09:53+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.sudvezi.az/detail.php?id=2</loc>
+  <lastmod>2023-03-06T10:09:53+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.sudvezi.az/detail.php?id=3</loc>
+  <lastmod>2023-03-06T10:09:53+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 
