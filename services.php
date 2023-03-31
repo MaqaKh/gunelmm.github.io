@@ -54,8 +54,6 @@ include 'core/dbconnection.php';
                                         <a class="nav-link" href="contact.php">Əlagə</a>
                                     </li>
                                 </ul>
-                                <!-- Appointment Button -->
-                                <a href="https://wa.me/994502054517?text=I'm%20interested%20in%20your%20car%20for%20sale" class="btn medilife-appoint-btn ml-30">Dərhal <span>əlagə</span> </a>
                             </div>
                         </nav>
                     </div>

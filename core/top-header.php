@@ -4,6 +4,9 @@
             <div class="col-12 h-100">
                 <div class="h-100 d-md-flex justify-content-between align-items-center">
                     <p>
+                        <span> <i class="fas fa-doctor"></i></span> Uzman Doktor Gunel Mammadova
+                    </p>
+                    <p>
                         <span> <i class="fas fa-envelope"></i></span> info@sudvezi.az
                     </p>
                     <p> <i class="fas fa-clock"></i> B.e. 09:00 - 18:00 </p>

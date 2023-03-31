@@ -67,8 +67,6 @@ $latestNews = $conn->query("SELECT * FROM blog  ORDER BY date DESC LIMIT 3");
                                             <a class="nav-link" href="contact.php">Əlagə</a>
                                         </li>
                                     </ul>
-                                    <!-- Appointment Button -->
-                                    <a href="#" class="btn medilife-appoint-btn ml-30">Dərhal <span>əlagə</span> </a>
                                 </div>
                             </nav>
                         </div>

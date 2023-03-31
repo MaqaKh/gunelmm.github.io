@@ -3,9 +3,41 @@
 
 <?php
 include 'core/dbconnection.php';
-include("core/meta.php");
-?>
 
+?>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Uzman Dr. Günel Məmmədova - Uzman Ümumi Cərrah, Mammoloq</title>
+    <meta name="description"  content="Uzman Dr. Gunel Məmmədova - Uzman Ümumi Cərrah, Mammoloq - Süd vezi xercenginin müayinəsi və müalicəsi ilə məşquldur. Sud vezi xercengi elametleri, dos xercenginin"/>
+    <meta name="keywords" content="mammoloq,radioloq,sud vezi xercengi, dos xercengi, hekim radioloq, hekim mamaloq,sud vezi xercengi hekimi,sud vezi mualicesi, Bakı Senologiya Akademiyasi, bsa, BSA"/>
+    <meta name="author" content="Süd vəzi cərrahiyəsi - Uzman, Cərrah Günel Məmmədova"/>
+    <link rel="alternate" hreflang="az" href="index.php"/>
+    <meta property="og:url" content="https://sudvezi.az"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:locale" content="az_AZ"/>
+    <meta property="og:title" content="Uzman Dr. Günel Məmmədova - uzman ümumi cərrah,mammoloq"/>
+    <meta property="og:description" content="Mammoloq, Radioloq Dr.Gunel Memmedova sud vezi xercenginin müayinəsi və müalicəsi ilə məşquldur. Sud vezi xercengi elametleri, dos xercenginin"/>
+    <meta property="og:image" content="uploads/TKRCD/logo.png"/>
+    <link rel="icon" href="img/core-img/favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css
+">
+    <link rel="alternate" hreflang="az" href="index.php" />
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-0FERCYRYH5"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-0FERCYRYH5');
+    </script>
+</head>
 <body>
     <div id="preloader">
         <div class="doc-page-load"></div>
@@ -48,7 +80,6 @@ include("core/meta.php");
                                             <a class="nav-link" href="contact.php">Əlagə</a>
                                         </li>
                                     </ul>
-                                    <a href="https://wa.me/994502054517?text=I'm%20interested%20in%20your%20car%20for%20sale" class="btn medilife-appoint-btn ml-30">Dərhal <span>əlagə</span> </a>
                                 </div>
                             </nav>
                         </div>
@@ -265,64 +296,13 @@ include("core/meta.php");
     include_once "core/index/info.php";
     include_once "core/index/gallery.php";
     include_once "core/index/blog.php";
-    ?>
-
-<!--    <div class="medilife-emergency-area section-padding-100-50">-->
-<!--        <div class="container">-->
-<!--            <div class="row">-->
-<!--                <div class="col-12 col-lg-6">-->
-<!--                    <div class="emergency-content">-->
-<!--                        <i class="icon-smartphone"></i>-->
-<!--                        <h2>Təcili zənglər üçün</h2>-->
-<!--                        <h3>+994 50 205 45 17</h3>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--                <div class="col-12 col-lg-6">-->
-<!--                    <div class="row">-->
-<!--                        <div class="col-12 col-sm-6">-->
-<!--                            <div class="single-emergency-helpline mb-50">-->
-<!--                                <h5>London</h5>-->
-<!--                                <p>0080 673 729 766 <br> contact@business.com <br> Lamas Str, no 14-18 <br> 41770 Miami</p>-->
-<!--                            </div>-->
-<!--                        </div>-->
-<!--                        <div class="col-12 col-sm-6">-->
-<!--                            <div class="single-emergency-helpline mb-50">-->
-<!--                                <h5>New Castle</h5>-->
-<!--                                <p>0080 673 729 766 <br> contact@business.com <br> Lamas Str, no 14-18 <br> 41770 Miami</p>-->
-<!--                            </div>-->
-<!--                        </div>-->
-<!--                        <div class="col-12 col-sm-6">-->
-<!--                            <div class="single-emergency-helpline mb-50">-->
-<!--                                <h5>Manchester</h5>-->
-<!--                                <p>0080 673 729 766 <br> contact@business.com <br> Lamas Str, no 14-18 <br> 41770 Miami</p>-->
-<!--                            </div>-->
-<!--                        </div>-->
-<!--                        <div class="col-12 col-sm-6">-->
-<!--                            <div class="single-emergency-helpline mb-50">-->
-<!--                                <h5>Bristol</h5>-->
-<!--                                <p>0080 673 729 766 <br> contact@business.com <br> Lamas Str, no 14-18 <br> 41770 Miami</p>-->
-<!--                            </div>-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--        </div>-->
-<!--    </div>-->
-    <!-- ***** Emergency Area End ***** -->
-
-    <?php
     include "core/foot.php";
     ?>
 
-    <!-- jQuery (Necessary for All JavaScript Plugins) -->
     <script src="js/jquery/jquery-2.2.4.min.js"></script>
-    <!-- Popper js -->
     <script src="js/popper.min.js"></script>
-    <!-- Bootstrap js -->
     <script src="js/bootstrap.min.js"></script>
-    <!-- Plugins js -->
     <script src="js/plugins.js"></script>
-    <!-- Active js -->
     <script src="js/active.js"></script>
 
 </body>
