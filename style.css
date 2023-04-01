@@ -288,10 +288,10 @@ img {
 }
 
 #scrollUp {
-    background-color: #006cff;
+    background-color: #de348a;
     border-radius: 50%;
-    bottom: 60px;
-    right: 60px;
+    bottom: 25px;
+    right: 78px;
     box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.3);
     color: #ffffff;
     font-size: 30px;
