@@ -205,6 +205,24 @@ include 'core/dbconnection.php';
     include_once "core/index/blog.php";
     include "core/foot.php";
     ?>
+    <script  type="text/javascript">
+        var config = {
+            phone :"994502054717",
+            call :"Bizə yazın",
+            position :"ww-right",
+            size : "ww-normal",
+            text : "",
+            type: "ww-extended",
+            brand: "",
+            subtitle: "",
+            welcome: ""
+        };
+        var proto = document.location.protocol, host = "cloudfront.net", url = proto + "//d3kzab8jj16n2f." + host;
+        var s = document.createElement("script"); s.type = "text/javascript"; s.async = true; s.src = url + "/v2/main.js";
+
+        s.onload = function () { tmWidgetInit(config) };
+        var x = document.getElementsByTagName("script")[0]; x.parentNode.insertBefore(s, x);
+    </script>
 
     <script src="js/jquery/jquery-2.2.4.min.js"></script>
     <script src="js/popper.min.js"></script>

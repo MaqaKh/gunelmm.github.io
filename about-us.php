@@ -160,8 +160,8 @@ include 'core/dbconnection.php';
                                 <div class="medilife-tab-text">
                                     <h2>Təhsil həyatı</h2>
                                     <p>
-                                        <b>İstanbul Universiteti</b> - Cərrahpaşa tibb fakültəsi
-                                    </p>
+                                        <b style="font-size: 30px; color:#6633c1;">İstanbul Universiteti</b>
+                                    <p style="margin-left: 40px;font-size: 20px;">- Cərrahpaşa tibb fakültəsi</p>
 
                                 </div>
                                 <div class="medilife-tab-img">
@@ -174,7 +174,9 @@ include 'core/dbconnection.php';
                                 <div class="medilife-tab-text">
                                     <h2>Uzmanlıq</h2>
                                     <p>
-                                        <b>Maramara Universiteti</b> - Genel Cerrahi bilim dalı
+                                        <b style="font-size: 30px; color:#6633c1;">Maramara Universiteti</b>
+                                    <p style="margin-left: 40px;font-size: 20px;">- Genel Cerrahi bilim dalı</p>
+
                                     </p>
                                 </div>
                                 <div class="medilife-tab-img">
@@ -187,11 +189,14 @@ include 'core/dbconnection.php';
                             <div class="medilife-tab-content d-md-flex align-items-center">
                                 <div class="medilife-tab-text">
                                     <h2>İş təcrübəsi</h2>
-                                    <p> <b> Marmara Universiteti - Ümumi cərrahiyə şöbəsi</b></p>
-                                    <p> <b> Mermorial Hospitals İstanbul </b></p>
+                                    <p><b style="font-size: 30px; color:#6633c1;"> Marmara Universiteti </b></p>
+                                    <p style="margin-left: 40px;font-size: 20px;">Ümumi cərrahiyə şöbəsi</p>
+                                    <p><b style="font-size: 30px; color: #6633c1;"> Mermorial Hospitals İstanbul </b>
+                                    </p>
+                                    <p style="margin-left: 40px; font-size: 20px;"> Ümumi cərrahiyə şöbəsi</p>
                                 </div>
                                 <div class="medilife-tab-img">
-                                    <img src="img/bg-img/tab.jpg" alt="">
+                                    <img src="img/core-img/memorial.jpg" alt="">
                                 </div>
                             </div>
                         </div>

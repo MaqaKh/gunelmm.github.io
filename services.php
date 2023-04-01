@@ -23,7 +23,8 @@ include 'core/dbconnection.php';
                     <div class="main-menu h-100">
                         <nav class="navbar h-100 navbar-expand-lg">
                             <!-- Logo Area  -->
-                            <a class="navbar-brand" style="width: 112px; border-radius: 5px; background-color: #f0ffff;" href="index.php"
+                            <a class="navbar-brand" style="width: 112px; border-radius: 5px; background-color: #f0ffff;"
+                               href="index.php"
                             ><img src="img/core-img/logo_new.png" alt="Logo">
                             </a>
 
@@ -89,34 +90,164 @@ include 'core/dbconnection.php';
 
                 <div class="accordions mb-100" id="accordion" role="tablist" aria-multiselectable="true">
                     <div class="panel single-accordion">
-                        <h6><a role="button" class="" aria-expanded="true" aria-controls="collapseOne" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">Donec ipsum metus, pharetr a quis nunc sit amet, maximus.
+                        <h6><a role="button" class="" aria-expanded="true" aria-controls="collapseOne"
+                               data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+                                Bütün növ süd vəzi xəstəliklərin müalicəsi
                                 <span class="accor-open"><i class="fa fa-plus" aria-hidden="true"></i></span>
                                 <span class="accor-close"><i class="fa fa-minus" aria-hidden="true"></i></span>
                             </a></h6>
-                        <div id="collapseOne" class="accordion-content collapse show">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel lectus eu felis semper finibus ac eget ipsum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vulputate id justo quis facilisis.</p>
+                        <div id="collapseOne" class="accordion-content collapse">
+                            <p></p>
                         </div>
                     </div>
                     <div class="panel single-accordion">
                         <h6>
-                            <a role="button" class="collapsed" aria-expanded="true" aria-controls="collapseTwo" data-parent="#accordion" data-toggle="collapse" href="#collapseTwo">Maximus vehicula nibh. Prae sent pulvinar porta.
+                            <a role="button" class="collapsed" aria-expanded="true" aria-controls="collapseTwo"
+                               data-parent="#accordion" data-toggle="collapse" href="#collapseTwo">
+                                Süd vəzi dikləşdirmə
                                 <span class="accor-open"><i class="fa fa-plus" aria-hidden="true"></i></span>
                                 <span class="accor-close"><i class="fa fa-minus" aria-hidden="true"></i></span>
                             </a>
                         </h6>
                         <div id="collapseTwo" class="accordion-content collapse">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel lectus eu felis semper finibus ac eget ipsum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vulputate id justo quis facilisis.</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel lectus eu felis semper
+                                finibus ac eget ipsum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
+                                vulputate id justo quis facilisis.</p>
                         </div>
                     </div>
                     <div class="panel single-accordion">
                         <h6>
-                            <a role="button" aria-expanded="true" aria-controls="collapseThree" class="collapsed" data-parent="#accordion" data-toggle="collapse" href="#collapseThree">Pharetr a quis nunc sit amet, maximus vehicula nibh.
+                            <a role="button" aria-expanded="true" aria-controls="collapseThree" class="collapsed"
+                               data-parent="#accordion" data-toggle="collapse" href="#collapseThree">
+                                Süd vəzinin implatla böyüdülməsi
                                 <span class="accor-open"><i class="fa fa-plus" aria-hidden="true"></i></span>
                                 <span class="accor-close"><i class="fa fa-minus" aria-hidden="true"></i></span>
                             </a>
                         </h6>
                         <div id="collapseThree" class="accordion-content collapse">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel lectus eu felis semper finibus ac eget ipsum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vulputate id justo quis facilisis.</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel lectus eu felis semper
+                                finibus ac eget ipsum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
+                                vulputate id justo quis facilisis.</p>
+                        </div>
+                    </div>
+                    <div class="panel single-accordion">
+                        <h6>
+                            <a role="button" aria-expanded="true" aria-controls="collapseThree" class="collapsed"
+                               data-parent="#accordion" data-toggle="collapse" href="#collapseThree">
+                                Süd vəzinin kiçildilməsi
+                                <span class="accor-open"><i class="fa fa-plus" aria-hidden="true"></i></span>
+                                <span class="accor-close"><i class="fa fa-minus" aria-hidden="true"></i></span>
+                            </a>
+                        </h6>
+                        <div id="collapseThree" class="accordion-content collapse">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel lectus eu felis semper
+                                finibus ac eget ipsum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
+                                vulputate id justo quis facilisis.</p>
+                        </div>
+                    </div>
+                    <div class="panel single-accordion">
+                        <h6>
+                            <a role="button" aria-expanded="true" aria-controls="collapseThree" class="collapsed"
+                               data-parent="#accordion" data-toggle="collapse" href="#collapseThree">
+                                Süd vəzi xərçəngində orqan qoruyucu cərrahiyə
+                                <span class="accor-open"><i class="fa fa-plus" aria-hidden="true"></i></span>
+                                <span class="accor-close"><i class="fa fa-minus" aria-hidden="true"></i></span>
+                            </a>
+                        </h6>
+                        <div id="collapseThree" class="accordion-content collapse">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel lectus eu felis semper
+                                finibus ac eget ipsum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
+                                vulputate id justo quis facilisis.</p>
+                        </div>
+                    </div>
+                    <div class="panel single-accordion">
+                        <h6>
+                            <a role="button" aria-expanded="true" aria-controls="collapseThree" class="collapsed"
+                               data-parent="#accordion" data-toggle="collapse" href="#collapseThree">
+                                Bilateral masteqdomiya - hər iki süd vəzinin çıxarılması
+                                <span class="accor-open"><i class="fa fa-plus" aria-hidden="true"></i></span>
+                                <span class="accor-close"><i class="fa fa-minus" aria-hidden="true"></i></span>
+                            </a>
+                        </h6>
+                        <div id="collapseThree" class="accordion-content collapse">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel lectus eu felis semper
+                                finibus ac eget ipsum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
+                                vulputate id justo quis facilisis.</p>
+                        </div>
+                    </div>
+                    <div class="panel single-accordion">
+                        <h6>
+                            <a role="button" aria-expanded="true" aria-controls="collapseThree" class="collapsed"
+                               data-parent="#accordion" data-toggle="collapse" href="#collapseThree">
+                                Sadə masteqdomiya - süd vızi toxumasının tamamilə çıxardılması
+                                <span class="accor-open"><i class="fa fa-plus" aria-hidden="true"></i></span>
+                                <span class="accor-close"><i class="fa fa-minus" aria-hidden="true"></i></span>
+                            </a>
+                        </h6>
+                        <div id="collapseThree" class="accordion-content collapse">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel lectus eu felis semper
+                                finibus ac eget ipsum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
+                                vulputate id justo quis facilisis.</p>
+                        </div>
+                    </div>
+                    <div class="panel single-accordion">
+                        <h6>
+                            <a role="button" aria-expanded="true" aria-controls="collapseThree" class="collapsed"
+                               data-parent="#accordion" data-toggle="collapse" href="#collapseThree">
+                                Xoş xassəli süd vəzi törəmələrinin eksiziyası
+                                <span class="accor-open"><i class="fa fa-plus" aria-hidden="true"></i></span>
+                                <span class="accor-close"><i class="fa fa-minus" aria-hidden="true"></i></span>
+                            </a>
+                        </h6>
+                        <div id="collapseThree" class="accordion-content collapse">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel lectus eu felis semper
+                                finibus ac eget ipsum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
+                                vulputate id justo quis facilisis.</p>
+                        </div>
+                    </div>
+                    <div class="panel single-accordion">
+                        <h6>
+                            <a role="button" aria-expanded="true" aria-controls="collapseThree" class="collapsed"
+                               data-parent="#accordion" data-toggle="collapse" href="#collapseThree">
+                                Masteqdamiyadan sonra xəstənin öz toxumasından süd vəzinin yıqılması
+                                <span class="accor-open"><i class="fa fa-plus" aria-hidden="true"></i></span>
+                                <span class="accor-close"><i class="fa fa-minus" aria-hidden="true"></i></span>
+                            </a>
+                        </h6>
+                        <div id="collapseThree" class="accordion-content collapse">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel lectus eu felis semper
+                                finibus ac eget ipsum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
+                                vulputate id justo quis facilisis.</p>
+                        </div>
+                    </div>
+                    <div class="panel single-accordion">
+                        <h6>
+                            <a role="button" aria-expanded="true" aria-controls="collapseThree" class="collapsed"
+                               data-parent="#accordion" data-toggle="collapse" href="#collapseThree">
+                                Qoltuq altı limfa düyünün diseksiyası
+                                <span class="accor-open"><i class="fa fa-plus" aria-hidden="true"></i></span>
+                                <span class="accor-close"><i class="fa fa-minus" aria-hidden="true"></i></span>
+                            </a>
+                        </h6>
+                        <div id="collapseThree" class="accordion-content collapse">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel lectus eu felis semper
+                                finibus ac eget ipsum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
+                                vulputate id justo quis facilisis.</p>
+                        </div>
+                    </div>
+                    <div class="panel single-accordion">
+                        <h6>
+                            <a role="button" aria-expanded="true" aria-controls="collapseThree" class="collapsed"
+                               data-parent="#accordion" data-toggle="collapse" href="#collapseThree">
+                                Qoltuqaltı aksesuar süd vəzi toxumasının çıxarılması
+                                <span class="accor-open"><i class="fa fa-plus" aria-hidden="true"></i></span>
+                                <span class="accor-close"><i class="fa fa-minus" aria-hidden="true"></i></span>
+                            </a>
+                        </h6>
+                        <div id="collapseThree" class="accordion-content collapse">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel lectus eu felis semper
+                                finibus ac eget ipsum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
+                                vulputate id justo quis facilisis.</p>
                         </div>
                     </div>
                 </div>
@@ -130,36 +261,244 @@ include 'core/dbconnection.php';
 
                 <div class="accordions mb-100" id="accordion" role="tablist" aria-multiselectable="true">
                     <div class="panel single-accordion">
-                        <h6><a role="button" class="collapsed" aria-expanded="true" aria-controls="collapseOne" data-toggle="collapse" data-parent="#accordion" href="#collapseFour">Donec ipsum metus, pharetr a quis nunc sit amet, maximus.
+                        <h6><a role="button" class="collapsed" aria-expanded="true" aria-controls="collapseOne"
+                               data-toggle="collapse" data-parent="#accordion" href="#collapseFour">
+                                Abdominoplastika
                                 <span class="accor-open"><i class="fa fa-plus" aria-hidden="true"></i></span>
                                 <span class="accor-close"><i class="fa fa-minus" aria-hidden="true"></i></span>
                             </a></h6>
                         <div id="collapseFour" class="accordion-content collapse">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel lectus eu felis semper finibus ac eget ipsum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vulputate id justo quis facilisis.</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel lectus eu felis semper
+                                finibus ac eget ipsum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
+                                vulputate id justo quis facilisis.</p>
                         </div>
                     </div>
                     <div class="panel single-accordion">
                         <h6>
-                            <a role="button" class="collapsed" aria-expanded="true" aria-controls="collapseTwo" data-parent="#accordion" data-toggle="collapse" href="#collapseFive">Maximus vehicula nibh. Prae sent pulvinar porta.
+                            <a role="button" class="collapsed" aria-expanded="true" aria-controls="collapseTwo"
+                               data-parent="#accordion" data-toggle="collapse" href="#collapseFive">
+                                Liposaksiya
                                 <span class="accor-open"><i class="fa fa-plus" aria-hidden="true"></i></span>
                                 <span class="accor-close"><i class="fa fa-minus" aria-hidden="true"></i></span>
                             </a>
                         </h6>
                         <div id="collapseFive" class="accordion-content collapse">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel lectus eu felis semper finibus ac eget ipsum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vulputate id justo quis facilisis.</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel lectus eu felis semper
+                                finibus ac eget ipsum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
+                                vulputate id justo quis facilisis.</p>
                         </div>
                     </div>
                     <div class="panel single-accordion">
                         <h6>
-                            <a role="button" aria-expanded="true" aria-controls="collapseThree" class="collapsed" data-parent="#accordion" data-toggle="collapse" href="#collapseSix">Pharetr a quis nunc sit amet, maximus vehicula nibh.
+                            <a role="button" aria-expanded="true" aria-controls="collapseThree" class="collapsed"
+                               data-parent="#accordion" data-toggle="collapse" href="#collapseSix">
+                                Bütün növ onkoloji əməliyyatlar
                                 <span class="accor-open"><i class="fa fa-plus" aria-hidden="true"></i></span>
                                 <span class="accor-close"><i class="fa fa-minus" aria-hidden="true"></i></span>
                             </a>
                         </h6>
                         <div id="collapseSix" class="accordion-content collapse">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel lectus eu felis semper finibus ac eget ipsum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vulputate id justo quis facilisis.</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel lectus eu felis semper
+                                finibus ac eget ipsum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
+                                vulputate id justo quis facilisis.</p>
                         </div>
                     </div>
+                    <div class="panel single-accordion">
+                        <h6>
+                            <a role="button" aria-expanded="true" aria-controls="collapseThree" class="collapsed"
+                               data-parent="#accordion" data-toggle="collapse" href="#collapseSix">
+                                Endoskopiya və Koronoskopiya
+                                <span class="accor-open"><i class="fa fa-plus" aria-hidden="true"></i></span>
+                                <span class="accor-close"><i class="fa fa-minus" aria-hidden="true"></i></span>
+                            </a>
+                        </h6>
+                        <div id="collapseSix" class="accordion-content collapse">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel lectus eu felis semper
+                                finibus ac eget ipsum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
+                                vulputate id justo quis facilisis.</p>
+                        </div>
+                    </div>
+                    <div class="panel single-accordion">
+                        <h6>
+                            <a role="button" aria-expanded="true" aria-controls="collapseThree" class="collapsed"
+                               data-parent="#accordion" data-toggle="collapse" href="#collapseSix">
+                                Arıqlamaq üçün mədə balonun taxılması (havalı, mayeli, öz pzünə əriyən)
+                                <span class="accor-open"><i class="fa fa-plus" aria-hidden="true"></i></span>
+                                <span class="accor-close"><i class="fa fa-minus" aria-hidden="true"></i></span>
+                            </a>
+                        </h6>
+                        <div id="collapseSix" class="accordion-content collapse">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel lectus eu felis semper
+                                finibus ac eget ipsum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
+                                vulputate id justo quis facilisis.</p>
+                        </div>
+                    </div>
+                    <div class="panel single-accordion">
+                        <h6>
+                            <a role="button" aria-expanded="true" aria-controls="collapseThree" class="collapsed"
+                               data-parent="#accordion" data-toggle="collapse" href="#collapseSix">
+                                Arıqlamaq üçün mədə botoksu
+                                <span class="accor-open"><i class="fa fa-plus" aria-hidden="true"></i></span>
+                                <span class="accor-close"><i class="fa fa-minus" aria-hidden="true"></i></span>
+                            </a>
+                        </h6>
+                        <div id="collapseSix" class="accordion-content collapse">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel lectus eu felis semper
+                                finibus ac eget ipsum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
+                                vulputate id justo quis facilisis.</p>
+                        </div>
+                    </div>
+                    <div class="panel single-accordion">
+                        <h6>
+                            <a role="button" aria-expanded="true" aria-controls="collapseThree" class="collapsed"
+                               data-parent="#accordion" data-toggle="collapse" href="#collapseSix">
+                                Öd kisəsi xəstəliklərinin cərrahi müalicəsi
+                                <span class="accor-open"><i class="fa fa-plus" aria-hidden="true"></i></span>
+                                <span class="accor-close"><i class="fa fa-minus" aria-hidden="true"></i></span>
+                            </a>
+                        </h6>
+                        <div id="collapseSix" class="accordion-content collapse">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel lectus eu felis semper
+                                finibus ac eget ipsum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
+                                vulputate id justo quis facilisis.</p>
+                        </div>
+                    </div>
+                    <div class="panel single-accordion">
+                        <h6>
+                            <a role="button" aria-expanded="true" aria-controls="collapseThree" class="collapsed"
+                               data-parent="#accordion" data-toggle="collapse" href="#collapseSix">
+                                Qasıq və qarın yırtıqlarının cərrahi müalicəsi
+                                <span class="accor-open"><i class="fa fa-plus" aria-hidden="true"></i></span>
+                                <span class="accor-close"><i class="fa fa-minus" aria-hidden="true"></i></span>
+                            </a>
+                        </h6>
+                        <div id="collapseSix" class="accordion-content collapse">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel lectus eu felis semper
+                                finibus ac eget ipsum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
+                                vulputate id justo quis facilisis.</p>
+                        </div>
+                    </div>
+                    <div class="panel single-accordion">
+                        <h6>
+                            <a role="button" aria-expanded="true" aria-controls="collapseThree" class="collapsed"
+                               data-parent="#accordion" data-toggle="collapse" href="#collapseSix">
+                                Mədə kiçiltmə əməliyyatları
+                                <span class="accor-open"><i class="fa fa-plus" aria-hidden="true"></i></span>
+                                <span class="accor-close"><i class="fa fa-minus" aria-hidden="true"></i></span>
+                            </a>
+                        </h6>
+                        <div id="collapseSix" class="accordion-content collapse">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel lectus eu felis semper
+                                finibus ac eget ipsum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
+                                vulputate id justo quis facilisis.</p>
+                        </div>
+                    </div>
+                    <div class="panel single-accordion">
+                        <h6>
+                            <a role="button" aria-expanded="true" aria-controls="collapseThree" class="collapsed"
+                               data-parent="#accordion" data-toggle="collapse" href="#collapseSix">
+                                Qalxanabənzər vəzi cərrahi müalicəsi
+                                <span class="accor-open"><i class="fa fa-plus" aria-hidden="true"></i></span>
+                                <span class="accor-close"><i class="fa fa-minus" aria-hidden="true"></i></span>
+                            </a>
+                        </h6>
+                        <div id="collapseSix" class="accordion-content collapse">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel lectus eu felis semper
+                                finibus ac eget ipsum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
+                                vulputate id justo quis facilisis.</p>
+                        </div>
+                    </div>
+                    <div class="panel single-accordion">
+                        <h6>
+                            <a role="button" aria-expanded="true" aria-controls="collapseThree" class="collapsed"
+                               data-parent="#accordion" data-toggle="collapse" href="#collapseSix">
+                                Bağırsaq çatı və babasil
+                                <span class="accor-open"><i class="fa fa-plus" aria-hidden="true"></i></span>
+                                <span class="accor-close"><i class="fa fa-minus" aria-hidden="true"></i></span>
+                            </a>
+                        </h6>
+                        <div id="collapseSix" class="accordion-content collapse">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel lectus eu felis semper
+                                finibus ac eget ipsum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
+                                vulputate id justo quis facilisis.</p>
+                        </div>
+                    </div>
+                    <div class="panel single-accordion">
+                        <h6>
+                            <a role="button" aria-expanded="true" aria-controls="collapseThree" class="collapsed"
+                               data-parent="#accordion" data-toggle="collapse" href="#collapseSix">
+                                Anal fistula və anal absesin cərrahi müalicəsi
+                                <span class="accor-open"><i class="fa fa-plus" aria-hidden="true"></i></span>
+                                <span class="accor-close"><i class="fa fa-minus" aria-hidden="true"></i></span>
+                            </a>
+                        </h6>
+                        <div id="collapseSix" class="accordion-content collapse">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel lectus eu felis semper
+                                finibus ac eget ipsum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
+                                vulputate id justo quis facilisis.</p>
+                        </div>
+                    </div>
+                    <div class="panel single-accordion">
+                        <h6>
+                            <a role="button" aria-expanded="true" aria-controls="collapseThree" class="collapsed"
+                               data-parent="#accordion" data-toggle="collapse" href="#collapseSix">
+                                Laparoskopik bütün növ əməliyyatlırın icrası
+                                <span class="accor-open"><i class="fa fa-plus" aria-hidden="true"></i></span>
+                                <span class="accor-close"><i class="fa fa-minus" aria-hidden="true"></i></span>
+                            </a>
+                        </h6>
+                        <div id="collapseSix" class="accordion-content collapse">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel lectus eu felis semper
+                                finibus ac eget ipsum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
+                                vulputate id justo quis facilisis.</p>
+                        </div>
+                    </div>
+                    <div class="panel single-accordion">
+                        <h6>
+                            <a role="button" aria-expanded="true" aria-controls="collapseThree" class="collapsed"
+                               data-parent="#accordion" data-toggle="collapse" href="#collapseSix">
+                                Saçlı dəridə lipomların və sebase kistlərin çıxarılması
+                                <span class="accor-open"><i class="fa fa-plus" aria-hidden="true"></i></span>
+                                <span class="accor-close"><i class="fa fa-minus" aria-hidden="true"></i></span>
+                            </a>
+                        </h6>
+                        <div id="collapseSix" class="accordion-content collapse">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel lectus eu felis semper
+                                finibus ac eget ipsum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
+                                vulputate id justo quis facilisis.</p>
+                        </div>
+                    </div>
+                    <div class="panel single-accordion">
+                        <h6>
+                            <a role="button" aria-expanded="true" aria-controls="collapseThree" class="collapsed"
+                               data-parent="#accordion" data-toggle="collapse" href="#collapseSix">
+                               Bədənin hər hansısa bir hissəsindəki lipomların çıxarılması
+                                <span class="accor-open"><i class="fa fa-plus" aria-hidden="true"></i></span>
+                                <span class="accor-close"><i class="fa fa-minus" aria-hidden="true"></i></span>
+                            </a>
+                        </h6>
+                        <div id="collapseSix" class="accordion-content collapse">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel lectus eu felis semper
+                                finibus ac eget ipsum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
+                                vulputate id justo quis facilisis.</p>
+                        </div>
+                    </div>
+                    <div class="panel single-accordion">
+                        <h6>
+                            <a role="button" aria-expanded="true" aria-controls="collapseThree" class="collapsed"
+                               data-parent="#accordion" data-toggle="collapse" href="#collapseSix">
+                                Dırnaq batması
+                                <span class="accor-open"><i class="fa fa-plus" aria-hidden="true"></i></span>
+                                <span class="accor-close"><i class="fa fa-minus" aria-hidden="true"></i></span>
+                            </a>
+                        </h6>
+                        <div id="collapseSix" class="accordion-content collapse">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel lectus eu felis semper
+                                finibus ac eget ipsum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
+                                vulputate id justo quis facilisis.</p>
+                        </div>
+                    </div>
+
                 </div>
 
             </div>
@@ -169,14 +508,11 @@ include 'core/dbconnection.php';
 </section>
 
 
-
-
 <?php
 //include_once "core/service/top-service-area.php";
 //include_once "core/service/mid-service-area.php";
 //include_once "core/service/bottom-service-area.php";
 ?>
-
 
 
 <div class="medilife-cta-area">
