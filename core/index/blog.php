@@ -1,7 +1,7 @@
 <?php
 $conn = OpenCon();
 mysqli_set_charset($conn, "utf8");
-$latestNews = $conn->query("SELECT * FROM blog  ORDER BY date DESC LIMIT 3");
+$latestNews = $conn->query("SELECT * FROM blog  ORDER BY date DESC LIMIT 6");
 ?>
 <div class="medilife-blog-area section-padding-100-0">
     <div class="container">
@@ -14,9 +14,9 @@ $latestNews = $conn->query("SELECT * FROM blog  ORDER BY date DESC LIMIT 3");
                         <div class="blog-post-thumbnail">
                             <img src="<?php echo $row['image']; ?>" alt="">
                             <!-- Post Date -->
-                            <div class="post-date">
-                                <a  href='detail.php?id=<?php echo $row['id']; ?>'><?php echo $row['date']; ?></a>
-                            </div>
+<!--                            <div class="post-date">-->
+<!--                                <a  href='detail.php?id=--><?php //echo $row['id']; ?><!--'>--><?php //echo $row['date']; ?><!--</a>-->
+<!--                            </div>-->
                         </div>
                         <!-- Post Content -->
                         <div class="post-content">

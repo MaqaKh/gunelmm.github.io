@@ -10,7 +10,7 @@
                             <h6 data-animation="fadeInUp" data-delay="400ms"></h6>
                             <div class="button-container">
                                 <button class="button"> Pasientlər üçün</button>
-                                <button class="button">Tİbb işçiləri üçün</button>
+                                <button class="button"> Həkimlər üçün</button>
                             </div>
 
                             <!--                            <a href="services.php" class="btn medilife-btn mt-50" data-animation="fadeInUp" data-delay="700ms"> Kəşf et <span>+</span></a>-->
@@ -29,7 +29,7 @@
                             <h6 data-animation="fadeInUp" data-delay="400ms"></h6>
                             <div class="button-container">
                                 <button class="button"> Pasientlər üçün</button>
-                                <button class="button">Tİbb işçiləri üçün</button>
+                                <button class="button"> Həkimlər üçün</button>
                             </div>
 <!--                            <a href="services.php" class="btn medilife-btn mt-50" data-animation="fadeInUp" data-delay="700ms">Kəşf et <span>+</span></a>-->
                         </div>
@@ -47,7 +47,7 @@
                             <h6 data-animation="fadeInUp" data-delay="400ms"></h6>
                             <div class="button-container">
                                 <button class="button"> Pasientlər üçün</button>
-                                <button class="button">Tİbb işçiləri üçün</button>
+                                <button class="button"> Həkimlər üçün</button>
                             </div>
 <!--                            <a href="services.php" class="btn medilife-btn mt-50" data-animation="fadeInUp" data-delay="700ms">Kəşf et<span>+</span></a>-->
                         </div>
