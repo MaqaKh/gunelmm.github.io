@@ -148,6 +148,33 @@ img {
     max-width: 100%;
 }
 
+.button-container {
+    display: flex;
+    justify-content: flex-start;
+    margin: 2%;
+}
+
+.button {
+    height: 135px;
+    width: 50%;
+    background-color: #de348a;
+    font-size: 24px;
+    color: #fff;
+    border: none;
+    margin-right: 1%;
+}
+
+.button:hover {
+    cursor: pointer;
+    height: 135px;
+    width: 50%;
+    background-color: #de348a;
+    font-size: 24px;
+    color: #fff;
+    border: none;
+    margin-right: 1%;
+}
+
 .medica-table {
     display: table;
     z-index: 9;
@@ -598,7 +625,7 @@ img {
     height: 110px;
     position: relative;
     z-index: 1;
-    background-color:#f0ffff;
+    background-color: #de348a;
     -webkit-transition-duration: 500ms;
     transition-duration: 500ms;
 }
@@ -620,7 +647,7 @@ img {
     z-index: 10000 !important;
     height: 80px;
     box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2);
-    background-color: #f0ffff;
+    background-color: #de348a;
 }
 
 @media only screen and (max-width: 767px) {
@@ -630,21 +657,21 @@ img {
 }
 
 .header-area .main-menu .nav-link {
-    font-size: 14px;
+    font-size: 18px;
     text-transform: capitalize;
     padding: 10px 20px;
-    color: #647589;
+    color: #FFFFFF;
     font-weight: 500;
     margin: 0 1px;
 }
 
 .header-area .main-menu .nav-link:hover {
-    background-color: #006cff;
+    background-color: #6633c1;
     color: white;
 }
 
 .header-area .main-menu .nav-link:focus {
-    background-color: #006cff;
+    background-color: #6633c1;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -669,7 +696,7 @@ img {
 
 .header-area .main-menu .nav-item.active .nav-link {
     color: white;
-    background-color: #006cff;
+    background-color: #6633c1;
 }
 
 .dropdown-menu.show {

@@ -21,7 +21,7 @@ include 'core/dbconnection.php';
                 <div class="col-12 h-100">
                     <div class="main-menu h-100">
                         <nav class="navbar h-100 navbar-expand-lg">
-                            <a class="navbar-brand" style="width: 123px; border-radius:50px; background-color: #f0ffff;"
+                            <a class="navbar-brand" style="width: 112px; border-radius:5px; background-color: #f0ffff;"
                                href="index.php"
                             ><img src="img/core-img/logo_new.png" alt="Logo">
                             </a>
