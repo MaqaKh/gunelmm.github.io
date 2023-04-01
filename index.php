@@ -211,7 +211,7 @@ include 'core/dbconnection.php';
             call :"Bizə yazın",
             position :"ww-right",
             size : "ww-normal",
-            text : "",
+            text : "Salam,",
             type: "ww-extended",
             brand: "",
             subtitle: "",
