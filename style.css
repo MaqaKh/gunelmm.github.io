@@ -522,7 +522,7 @@ img {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: #006cff;
+    background-color: #6633cc;
     opacity: 0.85;
     content: '';
 }
@@ -1766,7 +1766,7 @@ textarea {
 .medilife-cta-area {
     position: relative;
     z-index: 1;
-    background-color: #006cff;
+    background-color: #de348a;
     padding: 30px 0;
 }
 

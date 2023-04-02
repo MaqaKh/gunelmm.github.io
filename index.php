@@ -11,20 +11,23 @@ include 'core/dbconnection.php';
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <title>Uzman Dr. Günel Məmmədova - Uzman Ümumi Cərrah, Mammoloq</title>
-    <meta name="description"  content="Uzman Dr. Gunel Məmmədova - Uzman Ümumi Cərrah, Mammoloq - Süd vezi xercenginin müayinəsi və müalicəsi ilə məşquldur. Sud vezi xercengi elametleri, dos xercenginin"/>
-    <meta name="keywords" content="mammoloq,radioloq,sud vezi xercengi, dos xercengi, hekim radioloq, hekim mamaloq,sud vezi xercengi hekimi,sud vezi mualicesi, Bakı Senologiya Akademiyasi, bsa, BSA"/>
+    <meta name="description"
+          content="Uzman Dr. Gunel Məmmədova - Uzman Ümumi Cərrah, Mammoloq - Süd vezi xercenginin müayinəsi və müalicəsi ilə məşquldur. Sud vezi xercengi elametleri, dos xercenginin"/>
+    <meta name="keywords"
+          content="mammoloq,radioloq,sud vezi xercengi, dos xercengi, hekim radioloq, hekim mamaloq,sud vezi xercengi hekimi,sud vezi mualicesi, Bakı Senologiya Akademiyasi, bsa, BSA"/>
     <meta name="author" content="Süd vəzi cərrahiyəsi - Uzman, Cərrah Günel Məmmədova"/>
     <link rel="alternate" hreflang="az" href="index.php"/>
     <meta property="og:url" content="https://sudvezi.az"/>
     <meta property="og:type" content="website"/>
     <meta property="og:locale" content="az_AZ"/>
     <meta property="og:title" content="Uzman Dr. Günel Məmmədova - uzman ümumi cərrah,mammoloq"/>
-    <meta property="og:description" content="Mammoloq, Radioloq Dr.Gunel Memmedova sud vezi xercenginin müayinəsi və müalicəsi ilə məşquldur. Sud vezi xercengi elametleri, dos xercenginin"/>
+    <meta property="og:description"
+          content="Mammoloq, Radioloq Dr.Gunel Memmedova sud vezi xercenginin müayinəsi və müalicəsi ilə məşquldur. Sud vezi xercengi elametleri, dos xercenginin"/>
     <meta property="og:image" content="uploads/TKRCD/logo.png"/>
     <link rel="icon" href="img/core-img/favicon.ico">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css
 ">
-    <link rel="alternate" hreflang="az" href="index.php" />
+    <link rel="alternate" hreflang="az" href="index.php"/>
     <link rel="stylesheet" href="style.css">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
@@ -32,203 +35,106 @@ include 'core/dbconnection.php';
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-0FERCYRYH5"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
         gtag('js', new Date());
 
         gtag('config', 'G-0FERCYRYH5');
     </script>
 </head>
 <body>
-    <div id="preloader">
-        <div class="doc-page-load"></div>
+<div id="preloader">
+    <div class="doc-page-load"></div>
+</div>
+
+<header class="header-area">
+    <?php
+    include "core/top-header.php";
+    ?>
+    <div class="main-header-area" id="stickyHeader">
+        <div class="container h-100">
+            <div class="row h-100 align-items-center">
+                <div class="col-12 h-100">
+                    <div class="main-menu h-100">
+                        <nav class="navbar h-100 navbar-expand-lg">
+                            <a class="navbar-brand" style="width: 112px; border-radius:5px; background-color: #f0ffff;"
+                               href="index.php"
+                            ><img src="img/core-img/logo_new.png" alt="Logo">
+                            </a>
+
+                            <button class="navbar-toggler" type="button" data-toggle="collapse"
+                                    data-target="#medilifeMenu" aria-controls="medilifeMenu" aria-expanded="false"
+                                    aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+
+                            <div class="collapse navbar-collapse" id="medilifeMenu">
+                                <ul class="navbar-nav ml-auto">
+                                    <li class="nav-item active">
+                                        <a class="nav-link" href="index.php">Əsas<span class="sr-only">(current)</span></a>
+                                    </li>
+                                    <li class="nav-item dropdown">
+
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="about-us.php">Haqqında</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="services.php">Xidmətlər</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="blog.php">Xəbərlər</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="contact.php">Əlagə</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
+</header>
+<?php
+include_once "core/index/slider.php";
+include_once "core/index/info.php";
+include_once "core/index/gallery.php";
+include_once "core/index/blog.php";
+include "core/foot.php";
+?>
+<script type="text/javascript">
+    var config = {
+        phone: "994502054717",
+        call: "Bizə yazın",
+        position: "ww-right",
+        size: "ww-normal",
+        text: "Salam,",
+        type: "ww-extended",
+        brand: "Uzman Dr. Gunel Mammadova",
+        subtitle: "bir neçə dəygəyə cavablanılacaq",
+        welcome: "Salam, Sizə necə kümək edə bilərik?"
+    };
+    var proto = document.location.protocol, host = "cloudfront.net", url = proto + "//d3kzab8jj16n2f." + host;
+    var s = document.createElement("script");
+    s.type = "text/javascript";
+    s.async = true;
+    s.src = url + "/v2/main.js";
 
-    <header class="header-area">
-        <?php
-        include "core/top-header.php";
-        ?>
-        <div class="main-header-area" id="stickyHeader">
-            <div class="container h-100">
-                <div class="row h-100 align-items-center">
-                    <div class="col-12 h-100">
-                        <div class="main-menu h-100">
-                            <nav class="navbar h-100 navbar-expand-lg">
-                                <a class="navbar-brand" style="width: 112px; border-radius:5px; background-color: #f0ffff;" href="index.php"
-                                ><img src="img/core-img/logo_new.png" alt="Logo">
-                                </a>
+    s.onload = function () {
+        tmWidgetInit(config)
+    };
+    var x = document.getElementsByTagName("script")[0];
+    x.parentNode.insertBefore(s, x);
+</script>
 
-                                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#medilifeMenu" aria-controls="medilifeMenu" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-
-                                <div class="collapse navbar-collapse" id="medilifeMenu">
-                                    <ul class="navbar-nav ml-auto">
-                                        <li class="nav-item active">
-                                            <a class="nav-link" href="index.php">Əsas<span class="sr-only">(current)</span></a>
-                                        </li>
-                                        <li class="nav-item dropdown">
-
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="about-us.php">Haqqında</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="services.php">Xidmətlər</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="blog.php">Xəbərlər</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="contact.php">Əlagə</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </nav>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </header>
-    <!-- ***** Header Area End ***** -->
-
-    <!-- ***** About Us Area Start ***** -->
-   <!--  <section class="medica-about-us-area section-padding-100-20">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 col-lg-4">
-                    <div class="medica-about-content">
-                        <h2>We always put our pacients first</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Lorem ipsum dolor sit amet, consectetuer adipiscing eli.</p>
-                        <a href="#" class="btn medilife-btn mt-50">View the services <span>+</span></a>
-                    </div>
-                </div>
-                <div class="col-12 col-lg-8">
-                    <div class="row">
-                        <div class="col-12 col-sm-6">
-                            <div class="single-service-area d-flex">
-                                <div class="service-icon">
-                                    <i class="icon-doctor"></i>
-                                </div>
-                                <div class="service-content">
-                                    <h5>The Best Doctors</h5>
-                                    <p>Lorem ipsum dolor sit amet, consecte tuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12 col-sm-6">
-                            <div class="single-service-area d-flex">
-                                <div class="service-icon">
-                                    <i class="icon-blood-donation-1"></i>
-                                </div>
-                                <div class="service-content">
-                                    <h5>Baby Nursery</h5>
-                                    <p>Dolor sit amet, consecte tuer elit, sed diam nonummy nibh euismod tincidunt ut ldolore magna.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12 col-sm-6">
-                            <div class="single-service-area d-flex">
-                                <div class="service-icon">
-                                    <i class="icon-flask-2"></i>
-                                </div>
-                                <div class="service-content">
-                                    <h5>Laboratory</h5>
-                                    <p>Lorem ipsum dolor sit amet, consecte tuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12 col-sm-6">
-                            <div class="single-service-area d-flex">
-                                <div class="service-icon">
-                                    <i class="icon-emergency-call-1"></i>
-                                </div>
-                                <div class="service-content">
-                                    <h5>Emergency Room</h5>
-                                    <p>Dolor sit amet, consecte tuer elit, sed diam nonummy nibh euismod tincidunt ut ldolore magna.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section> -->
-    <!-- ***** About Us Area End ***** -->
-
-    <!-- ***** Cool Facts Area Start ***** -->
-    <!-- <section class="medilife-cool-facts-area section-padding-100-0">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 col-sm-6 col-lg-3">
-                    <div class="single-cool-fact-area text-center mb-100">
-                        <i class="icon-blood-transfusion-2"></i>
-                        <h2><span class="counter">5632</span></h2>
-                        <h6>Blood donations</h6>
-                        <p>Dolor sit amet, consecte tuer adipiscing elit, sed diam nonummy nibh euismod tincidunt.</p>
-                    </div>
-                </div>
-                <div class="col-12 col-sm-6 col-lg-3">
-                    <div class="single-cool-fact-area text-center mb-100">
-                        <i class="icon-atoms"></i>
-                        <h2><span class="counter">23</span>k</h2>
-                        <h6>Pacients</h6>
-                        <p>Dolor sit amet, consecte tuer adipiscing elit, sed diam nonummy nibh euismod tincidunt.</p>
-                    </div>
-                </div>
-                <div class="col-12 col-sm-6 col-lg-3">
-                    <div class="single-cool-fact-area text-center mb-100">
-                        <i class="icon-microscope"></i>
-                        <h2><span class="counter">25</span></h2>
-                        <h6>Specialities</h6>
-                        <p>Dolor sit amet, consecte tuer adipiscing elit, sed diam nonummy nibh euismod tincidunt.</p>
-                    </div>
-                </div>
-                <div class="col-12 col-sm-6 col-lg-3">
-                    <div class="single-cool-fact-area text-center mb-100">
-                        <i class="icon-doctor-1"></i>
-                        <h2><span class="counter">723</span></h2>
-                        <h6>Doctors</h6>
-                        <p>Dolor sit amet, consecte tuer adipiscing elit, sed diam nonummy nibh euismod tincidunt.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section> -->
-
-    <?php
-    include_once "core/index/slider.php";
-    ?>
-
-    <?php
-
-    include_once "core/index/info.php";
-    include_once "core/index/gallery.php";
-    include_once "core/index/blog.php";
-    include "core/foot.php";
-    ?>
-    <script  type="text/javascript">
-        var config = {
-            phone :"994502054717",
-            call :"Bizə yazın",
-            position :"ww-right",
-            size : "ww-normal",
-            text : "Salam,",
-            type: "ww-extended",
-            brand: "Uzman Dr. Gunel Mammadova",
-            subtitle: "bir neçə dəygəyə cavablanılacaq",
-            welcome: "Salam, Sizə necə kümək edə bilərik?"
-        };
-        var proto = document.location.protocol, host = "cloudfront.net", url = proto + "//d3kzab8jj16n2f." + host;
-        var s = document.createElement("script"); s.type = "text/javascript"; s.async = true; s.src = url + "/v2/main.js";
-
-        s.onload = function () { tmWidgetInit(config) };
-        var x = document.getElementsByTagName("script")[0]; x.parentNode.insertBefore(s, x);
-    </script>
-
-    <script src="js/jquery/jquery-2.2.4.min.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/plugins.js"></script>
-    <script src="js/active.js"></script>
+<script src="js/jquery/jquery-2.2.4.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/plugins.js"></script>
+<script src="js/active.js"></script>
 
 </body>
 

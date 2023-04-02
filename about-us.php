@@ -64,7 +64,7 @@ include 'core/dbconnection.php';
 </header>
 
 <section class="breadcumb-area bg-img gradient-background-overlay"
-         style="background-image: url(img/bg-img/breadcumb1.jpg);">
+         style="background-image: url(img/core-img/breadcumb-1-1.jpg);">
     <div class="container h-100">
         <div class="row h-100 align-items-center">
             <div class="col-12">
@@ -82,7 +82,7 @@ include 'core/dbconnection.php';
         <div class="row align-items-center">
             <div class="col-12 col-lg-6">
                 <div class="features-content">
-                    <h2>Həmişə karyolalarımızı əvvəlcə qoyuruq</h2>
+                    <h1>Uzman Dr. Günel Məmmədova</h1>
                     <p>Ən prioritetimiz, xəstələrimizin rifahı və məmnuniyyətidir.</p>
                     <a href="#" class="btn medilife-btn mt-50">Xidmətlər <span>+</span></a>
                 </div>
