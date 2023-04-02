@@ -89,7 +89,7 @@ a:hover, a:focus {
     top: 0;
     width: 100%;
     z-index: 100000;
-    background-color: #006cff;
+    background-color: #6633c1;
 }
 
 .doc-page-load {
@@ -2284,7 +2284,7 @@ textarea {
 }
 
 .single-accordion h6 a.collapsed {
-    background-color: #006cff;
+    background-color: #6633c1;
     color: #ffffff;
 }
 

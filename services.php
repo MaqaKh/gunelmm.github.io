@@ -65,7 +65,7 @@ include 'core/dbconnection.php';
 </header>
 
 <section class="breadcumb-area bg-img gradient-background-overlay"
-         style="background-image: url(img/bg-img/breadcumb2.jpg);">
+         style="background-image: url(img/core-img/breadcumb-2.jpeg);">
     <div class="container h-100">
         <div class="row h-100 align-items-center">
             <div class="col-12">
@@ -164,7 +164,7 @@ include 'core/dbconnection.php';
                         <h6>
                             <a role="button" aria-expanded="true" aria-controls="collapseSix" class="collapsed"
                                data-parent="#accordion" data-toggle="collapse" href="#collapseSix">
-                                Bilateral masteqdomiya - hər iki süd vəzinin çıxarılması
+                                Bilateral mastekdomiya - hər iki süd vəzinin çıxarılması
                                 <span class="accor-open"><i class="fa fa-plus" aria-hidden="true"></i></span>
                                 <span class="accor-close"><i class="fa fa-minus" aria-hidden="true"></i></span>
                             </a>
@@ -179,7 +179,7 @@ include 'core/dbconnection.php';
                         <h6>
                             <a role="button" aria-expanded="true" aria-controls="collapseSeven" class="collapsed"
                                data-parent="#accordion" data-toggle="collapse" href="#collapseSeven">
-                                Sadə masteqdomiya - süd vızi toxumasının tamamilə çıxardılması
+                                Sadə mastekdomiya - süd vızi toxumasının tamamilə çıxardılması
                                 <span class="accor-open"><i class="fa fa-plus" aria-hidden="true"></i></span>
                                 <span class="accor-close"><i class="fa fa-minus" aria-hidden="true"></i></span>
                             </a>

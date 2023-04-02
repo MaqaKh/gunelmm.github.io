@@ -31,7 +31,7 @@
                     </div>
                     <div class="service-content">
                         <h5>MAMMOQRAFİYA</h5>
-                        <p>Mamoqrafiya döş xərçənginin erkən aşkarlanması üçün ən çox istifadə edilən görüntüləmə üsuludur. Döş xərçəngi qadınlarda ən çox yayılmış xərçəng növlərindən biridir. Bu səbəbdən heç bir şikayəti olmayan qadınların 40 yaşdan sonra müayinə üçün mamoqramma etdirmələri vacibdir. </p>
+                        <p>Mamoqrafiya Süd vəzi xərçənginin erkən aşkarlanması üçün ən çox istifadə edilən görüntüləmə üsuludur. Süd vəzi xərçəngi qadınlarda ən çox yayılmış xərçəng növlərindən biridir. Bu səbəbdən heç bir şikayəti olmayan qadınların 40 yaşdan sonra müayinə üçün mamoqramma etdirmələri vacibdir. </p>
                     </div>
                 </div>
             </div>
@@ -66,7 +66,7 @@
                     </div>
                     <div class="service-content">
                         <h5>KRT</h5>
-                        <p>Ağciyərlərin yəni döş qəfəsi orqanlarının rentgen qrafiyası dünya üzrə vacib olan və eyni zamanda "check-up" siyahısına daxil olan müayinədir. Döş qəfəsinin rentgen müayinəsi həm skopiya (video görüntü) həm də qrafi rejimdə aparılır. </p>
+                        <p>Ağciyərlərin yəni Süd vəzi qəfəsi orqanlarının rentgen qrafiyası dünya üzrə vacib olan və eyni zamanda "check-up" siyahısına daxil olan müayinədir. Süd vəzi qəfəsinin rentgen müayinəsi həm skopiya (video görüntü) həm də qrafi rejimdə aparılır. </p>
                     </div>
                 </div>
             </div>
