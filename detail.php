@@ -110,7 +110,7 @@ $latestNews = $conn->query("SELECT * FROM blog  ORDER BY date DESC LIMIT 3");
                         <!-- Post Content -->
                         <div class="post-content">
                             <div class="post-author">
-                                <a href="#"><img  src="img/blog-img/uzman_profile.png"  alt=""></a>
+                                <a href="#"><img src="img/blog-img/uzman_profile.png" alt=""></a>
                             </div>
                             <a href="#" class="headline mb-0"><?php echo $row['title']; ?> </a>
                             <div class="post-meta">
