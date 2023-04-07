@@ -67,7 +67,7 @@ include 'core/dbconnection.php';
 
 <!-- ***** Breadcumb Area Start ***** -->
 <section class="breadcumb-area bg-img gradient-background-overlay"
-         style="background-image: url(img/bg-img/breadcumb3.jpg);">
+         style="background-image: url(preview/img/bg-img/breadcumb3.jpg);">
     <div class="container h-100">
         <div class="row h-100 align-items-center">
             <div class="col-12">
@@ -152,7 +152,7 @@ include 'core/dbconnection.php';
 
                     <!-- medilife Emergency Card -->
                     <div class="medilife-emergency-card bg-img bg-overlay"
-                         style="background-image: url(img/bg-img/about1.jpg);">
+                         style="background-image: url(preview/img/bg-img/about1.jpg);">
                         <i class="icon-smartphone"></i>
                         <h2>Təcili Zəng üçün</h2>
                         <h3>+994 50 205 45 17</h3>

@@ -11,7 +11,7 @@
     </div>
 
     <!-- Single Services Area -->
-    <div class="singleServiceArea equalize bg-img" style="background-image: url(img/bg-img/about1.jpg);"></div>
+    <div class="singleServiceArea equalize bg-img" style="background-image: url(preview/img/bg-img/about1.jpg);"></div>
 
     <!-- Single Services Area -->
     <div class="singleServiceArea equalize d-flex">

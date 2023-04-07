@@ -34,7 +34,7 @@
             </div>
             <div class="col-12 col-md-4">
                 <div class="single-benefits-thumb">
-                    <img src="img/bg-img/benefits.png" alt="">
+                    <img src="preview/img/bg-img/benefits.png" alt="">
                 </div>
             </div>
             <div class="col-12 col-md-4">

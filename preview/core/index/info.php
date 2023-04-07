@@ -24,7 +24,7 @@
             </div>
             <div class="col-12 col-lg-6">
                 <div class="features-thumbnail">
-                    <img src="../../img/bg-img/uzman.jpeg" alt="">
+                    <img src="../../preview/img/bg-img/uzman.jpeg" alt="">
                 </div>
             </div>
         </div>

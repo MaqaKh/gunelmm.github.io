@@ -89,7 +89,7 @@ include 'core/dbconnection.php';
             </div>
             <div class="col-12 col-lg-6">
                 <div class="features-thumbnail">
-                    <img src="img/bg-img/d8.jpeg" alt="">
+                    <img src="preview/img/bg-img/d8.jpeg" alt="">
                 </div>
             </div>
         </div>
@@ -97,12 +97,12 @@ include 'core/dbconnection.php';
 </div>
 
 <section class="medilife-video-area section-padding-100 bg-overlay bg-img"
-         style="background-image: url(img/bg-img/video.jpg);">
+         style="background-image: url(preview/img/bg-img/video.jpg);">
     <div class="container">
         <div class="row align-items-center">
             <div class="col-12 col-lg-8">
                 <div class="video-box bg-overlay-black">
-                    <img src="img/bg-img/uzman.jpeg" alt="">
+                    <img src="preview/img/bg-img/uzman.jpeg" alt="">
                     <div class="play-btn">
                         <a class="popup-video" href="http://www.youtube.com/watch?v=ne6GEXM_ejo"><img
                                     src="img/core-img/play.png" alt=""></a>
@@ -208,7 +208,7 @@ include 'core/dbconnection.php';
                                     <p> "St.Gallen International Breast Cacer Conference</p>
                                 </div>
                                 <div class="medilife-tab-img">
-                                    <img src="img/bg-img/medical1.png" alt="">
+                                    <img src="preview/img/bg-img/medical1.png" alt="">
                                 </div>
                             </div>
                         </div>
@@ -228,7 +228,7 @@ include 'core/dbconnection.php';
                                 </div>
                                 <!-- Medilife Tab Img  -->
                                 <div class="medilife-tab-img">
-                                    <img src="img/bg-img/about1.jpg" alt="">
+                                    <img src="preview/img/bg-img/about1.jpg" alt="">
                                 </div>
                             </div>
                         </div>
@@ -248,7 +248,7 @@ include 'core/dbconnection.php';
                                 </div>
                                 <!-- Medilife Tab Img  -->
                                 <div class="medilife-tab-img">
-                                    <img src="img/bg-img/medical1.png" alt="">
+                                    <img src="preview/img/bg-img/medical1.png" alt="">
                                 </div>
                             </div>
                         </div>
