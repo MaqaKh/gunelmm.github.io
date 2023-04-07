@@ -10,9 +10,9 @@ $rows = $conn->query("SELECT * FROM blog ORDER BY ID LIMIT 100");
 
 ?>
 <body>
-<!--<div id="preloader">-->
-<!--    <div class="doc-page-load"></div>-->
-<!--</div>-->
+<div id="preloader">
+    <div class="doc-page-load"></div>
+</div>
 
 <header class="header-area">
     <?php

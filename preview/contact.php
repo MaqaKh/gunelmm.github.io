@@ -7,9 +7,9 @@ include 'core/dbconnection.php';
 ?>
 
 <body>
-<!--<div id="preloader">-->
-<!--    <div class="doc-page-load"></div>-->
-<!--</div>-->
+<div id="preloader">
+    <div class="doc-page-load"></div>
+</div>
 
 <header class="header-area">
     <?php
