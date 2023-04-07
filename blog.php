@@ -63,7 +63,7 @@ $rows = $conn->query("SELECT * FROM blog ORDER BY ID LIMIT 100");
 </header>
 
 <section class="breadcumb-area bg-img gradient-background-overlay"
-         style="background-image: url(/img/bg-img/breadcumb2.jpg);">
+         style="background-image: url(img/bg-img/breadcumb2.jpg);">
     <div class="container h-100">
         <div class="row h-100 align-items-center">
             <div class="col-12">
@@ -87,14 +87,14 @@ $rows = $conn->query("SELECT * FROM blog ORDER BY ID LIMIT 100");
                                 <div class="blog-post-thumbnail">
                                     <img src="<?php echo $row['image']; ?>" alt="">
                                     <div class="post-date">
-                                        <a  href='detail.php?id=<?php echo $row['date']; ?></a>
+                                        <a  href='detail.php?id=<?php echo $row['id']; ?>'><?php echo $row['date']; ?></a>
                                     </div>
                                 </div>
                                 <div class="post-content">
                                     <div class="post-author">
                                         <img style="border-radius:10px;" src="img/blog-img/uzman_profile.png" alt="">
                                     </div>
-                                    <a href='detail.php?id=<?php echo$row['title']; ?></a>
+                                    <a href='detail.php?id=<?php echo $row['id']; ?>' class="headline"><?php echo $row['title']; ?></a>
                                     <p><?php echo strlen($row['content']) > 220 ? substr($row['content'], 0, 217) . '...' : $row['content']; ?></p>
                                 </div>
                             </div>
