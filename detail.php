@@ -78,7 +78,7 @@ $latestNews = $conn->query("SELECT * FROM blog  ORDER BY date DESC LIMIT 3");
     <!-- ***** Header Area End ***** -->
 
     <!-- ***** Breadcumb Area Start ***** -->
-    <section class="breadcumb-area bg-img gradient-background-overlay" style="background-image: url(preview/img/bg-img/breadcumb2.jpg);">
+    <section class="breadcumb-area bg-img gradient-background-overlay" style="background-image: url(/img/bg-img/breadcumb2.jpg);">
         <div class="container h-100">
             <div class="row h-100 align-items-center">
                 <div class="col-12">
@@ -166,7 +166,7 @@ $latestNews = $conn->query("SELECT * FROM blog  ORDER BY date DESC LIMIT 3");
                         </div>
 
                         <!-- medilife Emergency Card -->
-                        <div class="medilife-emergency-card bg-img bg-overlay" style="background-image: url(preview/img/bg-img/about1.jpg);">
+                        <div class="medilife-emergency-card bg-img bg-overlay" style="background-image: url(/img/bg-img/about1.jpg);">
                             <i class="icon-smartphone"></i>
                             <h2>Təcili Zəng üçün</h2>
                             <h3>+994 50 205 45 17</h3>
