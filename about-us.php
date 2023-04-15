@@ -77,24 +77,24 @@ include 'core/dbconnection.php';
     </div>
 </section>
 
-<div class="medilife-features-area section-padding-100">
-    <div class="container">
-        <div class="row align-items-center">
-            <div class="col-12 col-lg-6">
-                <div class="features-content">
-                    <h1>Uzman Dr. Günel Məmmədova</h1>
-                    <p>Ən prioritetimiz, xəstələrimizin rifahı və məmnuniyyətidir.</p>
-                    <a href="#" class="btn medilife-btn mt-50">Xidmətlər <span>+</span></a>
-                </div>
-            </div>
-            <div class="col-12 col-lg-6">
-                <div class="features-thumbnail">
-                    <img src="/img/bg-img/d8.jpeg" alt="">
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+<!--<div class="medilife-features-area section-padding-100">-->
+<!--    <div class="container">-->
+<!--        <div class="row align-items-center">-->
+<!--            <div class="col-12 col-lg-6">-->
+<!--                <div class="features-content">-->
+<!--                    <h1>Uzman Dr. Günel Məmmədova</h1>-->
+<!--                    <p>Ən prioritetimiz, xəstələrimizin rifahı və məmnuniyyətidir.</p>-->
+<!--                    <a href="#" class="btn medilife-btn mt-50">Xidmətlər <span>+</span></a>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--            <div class="col-12 col-lg-6">-->
+<!--                <div class="features-thumbnail">-->
+<!--                    <img src="/img/bg-img/d8.jpeg" alt="">-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</div>-->
 
 <section class="medilife-video-area section-padding-100 bg-overlay bg-img"
          style="background-image: url(/img/bg-img/video.jpg);">
@@ -112,10 +112,11 @@ include 'core/dbconnection.php';
             </div>
             <div class="col-12 col-lg-4">
                 <div class="video-content">
-                    <h2>Uzman Dr. Günəl Məmədova</h2>
-                    <p>Dr. Günəl Məmmədova - Marmara üniversitetinində, cərrahpaşa fakultəsində təhsil almışdır.
-                        Uzmanlığı MarmaraUniversitetində keşmiş. Bundan əlavə Memorial Hospitals İstanbul 5 illik iş
-                        təcrübəsinə malikdir</p>
+                    <h2>Uzman Dr. Günel Məmmədova</h2>
+                    <p>Dr. Günel Məmmədova -  bakı şəhərində anadan olmuşdur. Bakı şəhəri inglis dili təmayüllu 1 saylı lisey
+                    məzunudur. Universitet təhsilini İstanbul Univertiteti Cərrahpaşa tibb fakültəsində almışdır. Uzmanlıq təhsili Marmara universiteti
+                     Gen Cərrahiyə Anabilim Dalında almışdır. Uzun müddət Türkiyə - İstanbul şəhərində həkim olaraq işləmişdir. Hal-hzarıda
+                    bakı şəhərində fəaliyyət göstərməkdədir.</p
                 </div>
             </div>
         </div>
@@ -165,7 +166,7 @@ include 'core/dbconnection.php';
 
                                 </div>
                                 <div class="medilife-tab-img">
-                                    <img src="img/core-img/istanbul.jpg" alt="">
+                                    <img src="img/core-img/cerrahpasha.jpg" alt="">
                                 </div>
                             </div>
                         </div>
@@ -174,8 +175,8 @@ include 'core/dbconnection.php';
                                 <div class="medilife-tab-text">
                                     <h2>Uzmanlıq</h2>
                                     <p>
-                                        <b style="font-size: 30px; color:#6633c1;">Maramara Universiteti</b>
-                                    <p style="margin-left: 40px;font-size: 20px;">- Genel Cerrahi bilim dalı</p>
+                                        <b style="font-size: 30px; color:#6633c1;">Marmara Universiteti</b>
+                                    <p style="margin-left: 40px;font-size: 20px;">- Genel Cerrahi Anabilim Dalı</p>
 
                                     </p>
                                 </div>

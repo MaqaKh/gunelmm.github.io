@@ -14,10 +14,8 @@ $latestNews = $conn->query("SELECT * FROM blog  ORDER BY date DESC LIMIT 3");
                         <div class="footer-logo">
 <!--                            <img src="img/core-img/name.png" alt="">-->
                         </div>
-                        <p>Klinikamızda xəstələrimizə, fərdi müalicə planlarına və şəfqətli bir yanaşma ilə bağlı ən
-                            yaxşı qayğı göstərin. Təcrübəli tibb mütəxəssislərimiz, hər bir xəstənin ən yüksək keyfiyyət
-                            keyfiyyətini aldığını, gündəlik yoxlamalar və ya mürəkkəb tibbi prosedurları tələb
-                            etmələrini təmin etməyə həsr olunmuşdur.</p>
+                        <p>Uzman. Dr. Günel Məmmədova hal-hazırda EGE hospitalda  təcrübəli tibbi personallarla
+                        yüksək səviyyədə, fərdi müalicə planlaması ilə xəstələrə xidmət verməkdədir. <i><b>Bilgi və sevgi ilə sağaldırıq!</b></b></i></p>
                         <div class="footer-social-info">
                             <a href="https://www.instagram.com/uzman_cerrah_gunel_mammadova/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
                             <a href="https://www.youtube.com/@uzman_cerrah_gunel_mammado605"><i class="fa fa-youtube" aria-hidden="true"></i></a>
