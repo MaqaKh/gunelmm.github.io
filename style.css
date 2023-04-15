@@ -157,7 +157,8 @@ img {
 .button {
     height: 135px;
     width: 50%;
-    background-color: #de348a;
+    background-color: #6bb0d5;
+    border-radius: 15px;
     font-size: 24px;
     color: #fff;
     border: none;
@@ -168,7 +169,8 @@ img {
     cursor: pointer;
     height: 135px;
     width: 50%;
-    background-color: #de348a;
+    background-color: #6bb0d5;
+    border-radius: 15px;
     font-size: 24px;
     color: #fff;
     border: none;
@@ -625,7 +627,7 @@ img {
     height: 110px;
     position: relative;
     z-index: 1;
-    background-color: #de348a;
+    /*background-color: #de348a;*/
     -webkit-transition-duration: 500ms;
     transition-duration: 500ms;
 }
@@ -647,11 +649,12 @@ img {
     z-index: 10000 !important;
     height: 80px;
     box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2);
-    background-color: #de348a;
+    /*background-color: #de348a;*/
 }
 
 @media only screen and (max-width: 767px) {
     .is-sticky .main-header-area {
+        height: 70px;
         height: 70px;
     }
 }

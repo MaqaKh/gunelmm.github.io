@@ -3,7 +3,7 @@
         <div class="row align-items-center">
             <div class="col-12 col-lg-6">
                 <div class="features-content">
-                    <h1>Sizdə süd vəzi xərçəngi ola bilər?</h1>
+                    <h1>Süd vəzi xərçəngi ola bilərmi?</h1>
                     <p>Süd vəzi xərçəngi həmişə erkən mərhələdə simptomlara səbəb olmaya bilər, buna görə də müntəzəm
                         müayinələr vacibdir. Lakin xərçəng böyüdükcə ümumi simptomlar görsənə bilər:</p>
                     <ol>
