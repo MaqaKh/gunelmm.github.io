@@ -63,6 +63,9 @@ include 'core/dbconnection.php';
     </div>
 </header>
 
+<?php
+include_once "core/certificate-slider.php";
+?>
 <section class="breadcumb-area bg-img gradient-background-overlay"
          style="background-image: url(img/core-img/breadcumb-1-1.jpg);">
     <div class="container h-100">
@@ -112,11 +115,11 @@ include 'core/dbconnection.php';
             </div>
             <div class="col-12 col-lg-4">
                 <div class="video-content">
-                    <h2>Uzman Dr. Günel Məmmədova</h2>
-                    <p>Dr. Günel Məmmədova -  bakı şəhərində anadan olmuşdur. Bakı şəhəri inglis dili təmayüllu 1 saylı lisey
+                    <h2>Uzman. Dr. Günel Məmmədova</h2>
+                    <p>Dr. Günel Məmmədova -  Bakı şəhərində anadan olmuşdur. Bakı şəhəri ingilis dili təmayüllu 1 saylı lisey
                     məzunudur. Universitet təhsilini İstanbul Univertiteti Cərrahpaşa tibb fakültəsində almışdır. Uzmanlıq təhsili Marmara universiteti
-                     Gen Cərrahiyə Anabilim Dalında almışdır. Uzun müddət Türkiyə - İstanbul şəhərində həkim olaraq işləmişdir. Hal-hzarıda
-                    bakı şəhərində fəaliyyət göstərməkdədir.</p
+                     Genel Cərrahiyə Anabilim Dalında almışdır. Uzun müddət Türkiyə - İstanbul şəhərində həkim olaraq işləmişdir. Hal-hazırda
+                    Bakı şəhərində fəaliyyət göstərməkdədir.</p
                 </div>
             </div>
         </div>

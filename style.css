@@ -1551,9 +1551,9 @@ textarea {
 }
 
 .medilife-tabs-content .nav-link.active {
-    background-color: #006cff;
+    background-color: #6633cc;
     color: #ffffff;
-    border-color: #006cff;
+    border-color: #6633cc;
 }
 
 @media only screen and (max-width: 767px) {
@@ -1584,9 +1584,10 @@ textarea {
 
 .medilife-tabs-content .medilife-tab-content {
     margin-top: 1px;
-    border: 2px solid;
-    border-color: #006cff;
+    border: 20px solid;
+    border-color: #6633cc;
     padding: 70px;
+    border-radius: 80px;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
