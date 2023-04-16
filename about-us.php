@@ -78,27 +78,18 @@ include 'core/dbconnection.php';
     </div>
 </section>
 
-<?php
-include_once "core/certificate-slider.php";
-?>
-<!--<div class="medilife-features-area section-padding-100">-->
-<!--    <div class="container">-->
-<!--        <div class="row align-items-center">-->
-<!--            <div class="col-12 col-lg-6">-->
-<!--                <div class="features-content">-->
-<!--                    <h1>Uzman Dr. Günel Məmmədova</h1>-->
-<!--                    <p>Ən prioritetimiz, xəstələrimizin rifahı və məmnuniyyətidir.</p>-->
-<!--                    <a href="#" class="btn medilife-btn mt-50">Xidmətlər <span>+</span></a>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--            <div class="col-12 col-lg-6">-->
-<!--                <div class="features-thumbnail">-->
-<!--                    <img src="/img/bg-img/d8.jpeg" alt="">-->
-<!--                </div>-->
-<!--            </div>-->
-<!--        </div>-->
-<!--    </div>-->
-<!--</div>-->
+<section class="medilife-tabs-area section-padding-100">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <?php
+                include_once "core/certificate-slider.php";
+                ?>
+            </div>
+        </div>
+    </div>
+</section>
+
 
 <section class="medilife-video-area section-padding-100 bg-overlay bg-img"
          style="background-image: url(/img/bg-img/video.jpg);">
@@ -126,6 +117,7 @@ include_once "core/certificate-slider.php";
         </div>
     </div>
 </section>
+
 
 <section class="medilife-tabs-area section-padding-100">
     <div class="container">
