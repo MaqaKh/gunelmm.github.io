@@ -79,7 +79,6 @@ include 'core/dbconnection.php';
 </section>
 
 <section class="medilife-tabs-area section-padding-100">
-    <div class="container">
         <div class="row">
             <div class="col-12">
                 <?php
@@ -87,7 +86,6 @@ include 'core/dbconnection.php';
                 ?>
             </div>
         </div>
-    </div>
 </section>
 
 
@@ -213,15 +211,8 @@ include 'core/dbconnection.php';
                             <div class="medilife-tab-content d-md-flex align-items-center">
                                 <!-- Medilife Tab Text  -->
                                 <div class="medilife-tab-text">
-                                    <h2>Take a look at this</h2>
-                                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh
-                                        euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Lorem ipsum
-                                        dolor sit amet, consectetuer adipiscing eli. Lorem ipsum dolor sit amet,
-                                        consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet
-                                        dolore magna aliquam erat volutpat. Lorem ipsum dolor sit amet, consectetuer
-                                        adipiscing eli sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna
-                                        aliquam erat volutpat. Lorem ipsum dolor sit amet, consectetuer adipiscing
-                                        eli.</p>
+                                    <h2>Elmi işlər</h2>
+                                    <p></p>
                                 </div>
                                 <!-- Medilife Tab Img  -->
                                 <div class="medilife-tab-img">
@@ -233,15 +224,8 @@ include 'core/dbconnection.php';
                             <div class="medilife-tab-content d-md-flex align-items-center">
                                 <!-- Medilife Tab Text  -->
                                 <div class="medilife-tab-text">
-                                    <h2>Take a look at this</h2>
-                                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh
-                                        euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Lorem ipsum
-                                        dolor sit amet, consectetuer adipiscing eli. Lorem ipsum dolor sit amet,
-                                        consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet
-                                        dolore magna aliquam erat volutpat. Lorem ipsum dolor sit amet, consectetuer
-                                        adipiscing eli sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna
-                                        aliquam erat volutpat. Lorem ipsum dolor sit amet, consectetuer adipiscing
-                                        eli.</p>
+                                    <h2>Əlavə</h2>
+                                    <p></p>
                                 </div>
                                 <!-- Medilife Tab Img  -->
                                 <div class="medilife-tab-img">
