@@ -63,9 +63,7 @@ include 'core/dbconnection.php';
     </div>
 </header>
 
-<?php
-include_once "core/certificate-slider.php";
-?>
+
 <section class="breadcumb-area bg-img gradient-background-overlay"
          style="background-image: url(img/core-img/breadcumb-1-1.jpg);">
     <div class="container h-100">
@@ -80,6 +78,9 @@ include_once "core/certificate-slider.php";
     </div>
 </section>
 
+<?php
+include_once "core/certificate-slider.php";
+?>
 <!--<div class="medilife-features-area section-padding-100">-->
 <!--    <div class="container">-->
 <!--        <div class="row align-items-center">-->
