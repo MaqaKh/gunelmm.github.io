@@ -121,8 +121,8 @@ include "core/foot.php";
         text: "Salam,",
         type: "ww-extended",
         brand: "Uzman Dr. Gunel Mammadova",
-        subtitle: "bir neçə dəygəyə cavablanılacaq",
-        welcome: "Salam, Sizə necə kümək edə bilərik?"
+        subtitle: "bir neçə dəgigəyə cavablanılacaq",
+        welcome: "Salam, Sizə necə kömək edə bilərik?"
     };
     var proto = document.location.protocol, host = "cloudfront.net", url = proto + "//d3kzab8jj16n2f." + host;
     var s = document.createElement("script");
