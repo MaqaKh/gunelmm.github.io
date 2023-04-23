@@ -64,7 +64,14 @@ include 'core/dbconnection.php';
                                href="index.php"
                             ><img src="img/core-img/logo_new.png" alt="Logo">
                             </a>
-
+                            <a class="navbar-brand" style="width: 112px; border-radius:5px;"
+                               href="index.php"
+                            ><img src="img/core-img/cerrahpasha-logo.jpg" alt="Logo">
+                            </a>
+                            <a class="navbar-brand" style="width: 112px; border-radius:5px;"
+                               href="index.php"
+                            ><img src="img/core-img/marmara-logo.png" alt="Logo">
+                            </a>
                             <button class="navbar-toggler" type="button" data-toggle="collapse"
                                     data-target="#medilifeMenu" aria-controls="medilifeMenu" aria-expanded="false"
                                     aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
