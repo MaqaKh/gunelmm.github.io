@@ -114,7 +114,7 @@ include "core/foot.php";
 ?>
 <script type="text/javascript">
     var config = {
-        phone: "+994(50) 205-47-17",
+        phone: "+994502054717",
         call: "Bizə yazın",
         position: "ww-right",
         size: "ww-normal",
