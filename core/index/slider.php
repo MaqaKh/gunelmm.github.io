@@ -11,7 +11,7 @@
                                 <h6 data-animation="fadeInUp" data-delay="400ms"></h6>
                             </div>
                             <div class="col-md-6">
-                                <img class="slide-img" src="/img/bg-imgbg-img/uzman.png">
+                                <img class="slide-img" src="/img/bg-img/uzman.png">
                             </div>
 
 <!--                            <div class="button-container">-->
@@ -34,7 +34,7 @@
                                 <h6 data-animation="fadeInUp" data-delay="400ms"></h6>
                             </div>
                             <div class="col-md-6">
-                                <img class="slide-img" src="/img/bg-imgbg-img/hero_1_2.jpeg">
+                                <img class="slide-img" src="/img/bg-img/hero_1_2.jpeg">
                             </div>
 
 <!--                            <div class="button-container">-->
@@ -57,7 +57,7 @@
                                 <h6 data-animation="fadeInUp" data-delay="400ms"></h6>
                             </div>
                             <div class="col-md-6">
-                                <img class="slide-img" src="/img/bg-imgbg-img/hero1_3.jpeg">
+                                <img class="slide-img" src="/img/bg-img/hero1_3.jpeg">
 
                             </div>
 
