@@ -627,6 +627,7 @@ img {
     height: 110px;
     position: relative;
     z-index: 1;
+    border-bottom: 1px solid #e0e0eb;
     /*background-color: #de348a;*/
     -webkit-transition-duration: 500ms;
     transition-duration: 500ms;
@@ -663,8 +664,8 @@ img {
     font-size: 18px;
     text-transform: capitalize;
     padding: 10px 20px;
-    color: #FFFFFF;
-    font-weight: 500;
+    color: black;
+    font-weight: 600;
     margin: 0 1px;
 }
 
@@ -2382,4 +2383,7 @@ textarea {
     color: #ffffff;
 }
 
+.slide-img{
+    border-radius:10px;
+}
 /*# sourceMappingURL=style.css.map */
