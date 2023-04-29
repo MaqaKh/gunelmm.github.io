@@ -16,8 +16,8 @@
                                     yeniliklərini tətbiq etməklə icra etməkdədir
                                 </p>
                                 <div class="button-container">
-                                    <button class="button"> Pasientlər üçün</button>
-                                    <button class="button"> Həkimlər üçün</button>
+                                    <button data-animation="fadeInUp" data-delay="100ms" class="button"> Pasientlər üçün</button>
+                                    <button data-animation="fadeInUp" data-delay="100ms" class="button"> Həkimlər üçün</button>
                                 </div>
                             </div>
                             <div class="col-md-6">
@@ -43,8 +43,8 @@
                                     və sevgi ilə sağaldırıq!
                                 </p>
                                 <div class="button-container">
-                                    <button class="button"> Pasientlər üçün</button>
-                                    <button class="button"> Həkimlər üçün</button>
+                                    <button data-animation="fadeInUp" data-delay="100ms" class="button"> Pasientlər üçün</button>
+                                    <button data-animation="fadeInUp" data-delay="100ms" class="button"> Həkimlər üçün</button>
                                 </div>
                             </div>
                             <div class="col-md-6">
