@@ -203,7 +203,7 @@ include 'core/dbconnection.php';
                                     <p> "St.Gallen International Breast Cacer Conference</p>
                                 </div>
                                 <div class="medilife-tab-img">
-                                    <img src="/img/bg-img/medical1.png" alt="">
+                                    <img src="/img/bg-img/konfrans.jpeg" alt="">
                                 </div>
                             </div>
                         </div>
@@ -229,7 +229,7 @@ include 'core/dbconnection.php';
                                 </div>
                                 <!-- Medilife Tab Img  -->
                                 <div class="medilife-tab-img">
-                                    <img src="/img/bg-img/medical1.png" alt="">
+<!--                                    <img src="/img/bg-img/medical1.png" alt="">-->
                                 </div>
                             </div>
                         </div>
