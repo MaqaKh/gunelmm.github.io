@@ -155,9 +155,9 @@ img {
 }
 
 .button {
-    height: 135px;
-    width: 50%;
-    background-color: #6bb0d5;
+    height: 65px;
+    width: 40%;
+    background-color: #6633c1;
     border-radius: 15px;
     font-size: 24px;
     color: #fff;
@@ -167,9 +167,9 @@ img {
 
 .button:hover {
     cursor: pointer;
-    height: 135px;
-    width: 50%;
-    background-color: #6bb0d5;
+    height: 65px;
+    width: 40%;
+    background-color: #6633c1;
     border-radius: 15px;
     font-size: 24px;
     color: #fff;
