@@ -12,15 +12,19 @@ $latestNews = $conn->query("SELECT * FROM blog  ORDER BY date DESC LIMIT 3");
                 <div class="col-12 col-sm-6 col-xl-3">
                     <div class="footer-widget-area">
                         <div class="footer-logo">
-<!--                            <img src="img/core-img/name.png" alt="">-->
+                            <!--                            <img src="img/core-img/name.png" alt="">-->
                         </div>
-                        <p>Uzman. Dr. Günel Məmmədova hal-hazırda EGE hospitalda  təcrübəli tibbi personallarla
-                        yüksək səviyyədə, fərdi müalicə planlaması ilə xəstələrə xidmət verməkdədir. <i><b>Bilgi və sevgi ilə sağaldırıq!</b></b></i></p>
+                        <p>Uzman. Dr. Günel Məmmədova hal-hazırda EGE hospitalda təcrübəli tibbi personallarla
+                            yüksək səviyyədə, fərdi müalicə planlaması ilə xəstələrə xidmət verməkdədir. <i><b>Bilgi və
+                                    sevgi ilə sağaldırıq!</b></b></i></p>
                         <div class="footer-social-info">
-                            <a href="https://www.instagram.com/uzman_cerrah_gunel_mammadova/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-                            <a href="https://www.youtube.com/@uzman_cerrah_gunel_mammado605"><i class="fa fa-youtube" aria-hidden="true"></i></a>
+                            <a href="https://www.instagram.com/uzman_cerrah_gunel_mammadova/"><i class="fa fa-instagram"
+                                                                                                 aria-hidden="true"></i></a>
+                            <a href="https://www.youtube.com/@uzman_cerrah_gunel_mammado605"><i class="fa fa-youtube"
+                                                                                                aria-hidden="true"></i></a>
                             <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                            <a href="https://www.linkedin.com/in/op-dr-g%C3%BCnel-mammadova-0b9b59220"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                            <a href="https://www.linkedin.com/in/op-dr-g%C3%BCnel-mammadova-0b9b59220"><i
+                                        class="fa fa-linkedin" aria-hidden="true"></i></a>
                         </div>
                     </div>
                 </div>
@@ -46,8 +50,8 @@ $latestNews = $conn->query("SELECT * FROM blog  ORDER BY date DESC LIMIT 3");
                                     </div>
                                 </div>
 
-                            <?php
-                                }
+                                <?php
+                            }
                             ?>
                         </div>
                     </div>
@@ -63,7 +67,7 @@ $latestNews = $conn->query("SELECT * FROM blog  ORDER BY date DESC LIMIT 3");
                                 <input type="text" class="form-control border-top-0 border-right-0 border-left-0"
                                        name="footer-name" name="name" id="name" placeholder="Ad">
                                 <input type="email" class="form-control border-top-0 border-right-0 border-left-0"
-                                       name="footer-email" name="email" id="email"  placeholder="Email">
+                                       name="footer-email" name="email" id="email" placeholder="Email">
                                 <textarea name="message" class="form-control border-top-0 border-right-0 border-left-0"
                                           name="message" id="message" placeholder="Mesaj"></textarea>
                                 <button type="submit" class="btn medilife-btn">Əlagə <span>+</span></button>
@@ -84,6 +88,9 @@ $latestNews = $conn->query("SELECT * FROM blog  ORDER BY date DESC LIMIT 3");
                                        id="newsletterEmail" placeholder="Sizin emailiniz">
                                 <button type="submit">Abunə ol</button>
                             </form>
+                        </div>
+                        <div class="footer-newsletter-area">
+
                         </div>
                     </div>
                 </div>
@@ -110,17 +117,17 @@ $latestNews = $conn->query("SELECT * FROM blog  ORDER BY date DESC LIMIT 3");
 </footer>
 
 <script>
-    $(document).ready(function() {
-        $('#myForm').submit(function(e) {
+    $(document).ready(function () {
+        $('#myForm').submit(function (e) {
             e.preventDefault();
             $.ajax({
                 type: 'POST',
                 url: 'core/send-mail.php',
                 data: $('#myForm').serialize(),
-                success: function(data) {
+                success: function (data) {
                     alert('Email sent successfully!');
                 },
-                error: function(xhr, status, error) {
+                error: function (xhr, status, error) {
                     console.log(xhr.responseText);
                 }
             });

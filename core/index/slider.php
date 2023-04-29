@@ -7,8 +7,11 @@
                     <div class="col-12">
                         <div class="row hero-slides-content">
                             <div class="col-md-6">
-                                <h2 data-animation="fadeInUp" data-delay="100ms">Uzman Doktor Günel Məmmədova</h2>
-                                <h6 data-animation="fadeInUp" data-delay="400ms"></h6>
+                                <h2 data-animation="fadeInUp" data-delay="100ms">Uzman. Dr. Günel Məmmədova</h2>
+                                <p data-animation="fadeInUp" style="color:black; font-size:18px;" data-delay="400ms">Türkiyənin İstanbul universitetinin Cərrahpaşa tibb fakültəsinin
+                                məzunu, Marmara universitetinin "Genel Cərrahi Anabilim Dalı" şöbəsində təkminləşmiş Uzman. Dr. Günel Məmmədova
+                                artıq Bakida bu sahə üzrə bütün növ müasir cərrahi prosedurları tibbin ən son yeniliklərini tətbiq etməklə icra etməkdədir
+                                </p>
                             </div>
                             <div class="col-md-6">
                                 <img class="slide-img" src="/img/bg-img/uzman.png">
