@@ -177,6 +177,11 @@ img {
     margin-right: 1%;
 }
 
+#myTab{
+    margin-left: 10%;
+    max-width: 80%;
+}
+
 .medica-table {
     display: table;
     z-index: 9;

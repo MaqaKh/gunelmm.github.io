@@ -79,13 +79,13 @@ include 'core/dbconnection.php';
 </section>
 
 <section class="medilife-tabs-area section-padding-100">
-        <div class="row">
-            <div class="col-12">
-                <?php
-                include_once "core/certificate-slider.php";
-                ?>
-            </div>
+    <div class="row">
+        <div class="col-12">
+            <?php
+            include_once "core/certificate-slider.php";
+            ?>
         </div>
+    </div>
 </section>
 
 
@@ -106,10 +106,13 @@ include 'core/dbconnection.php';
             <div class="col-12 col-lg-4">
                 <div class="video-content">
                     <h2>Uzman. Dr. Günel Məmmədova</h2>
-                    <p>Dr. Günel Məmmədova -  Bakı şəhərində anadan olmuşdur. Bakı şəhəri ingilis dili təmayüllu 1 saylı lisey
-                    məzunudur. Universitet təhsilini İstanbul Univertiteti Cərrahpaşa tibb fakültəsində almışdır. Uzmanlıq təhsili Marmara universiteti
-                     Genel Cərrahiyə Anabilim Dalında almışdır. Uzun müddət Türkiyə - İstanbul şəhərində həkim olaraq işləmişdir. Hal-hazırda
-                    Bakı şəhərində fəaliyyət göstərməkdədir.</p
+                    <p>Dr. Günel Məmmədova - Bakı şəhərində anadan olmuşdur. Bakı şəhəri ingilis dili təmayüllu 1 saylı
+                        lisey
+                        məzunudur. Universitet təhsilini İstanbul Univertiteti Cərrahpaşa tibb fakültəsində almışdır.
+                        Uzmanlıq təhsili Marmara universiteti
+                        Genel Cərrahiyə Anabilim Dalında almışdır. Uzun müddət Türkiyə - İstanbul şəhərində həkim olaraq
+                        işləmişdir. Hal-hazırda
+                        Bakı şəhərində fəaliyyət göstərməkdədir.</p
                 </div>
             </div>
         </div>
@@ -139,14 +142,14 @@ include 'core/dbconnection.php';
                             <a class="nav-link" id="laboratory-tab" data-toggle="tab" href="#laboratory" role="tab"
                                aria-controls="laboratory" aria-selected="false">Konfraslar</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" id="emergencies-tab" data-toggle="tab" href="#emergencies" role="tab"
-                               aria-controls="emergencies" aria-selected="false">Elmi işlər</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" id="scolarship-tab" data-toggle="tab" href="#scolarship" role="tab"
-                               aria-controls="scolarship" aria-selected="false">Əlavə</a>
-                        </li>
+                        <!--                        <li class="nav-item">-->
+                        <!--                            <a class="nav-link" id="emergencies-tab" data-toggle="tab" href="#emergencies" role="tab"-->
+                        <!--                               aria-controls="emergencies" aria-selected="false">Elmi işlər</a>-->
+                        <!--                        </li>-->
+                        <!--                        <li class="nav-item">-->
+                        <!--                            <a class="nav-link" id="scolarship-tab" data-toggle="tab" href="#scolarship" role="tab"-->
+                        <!--                               aria-controls="scolarship" aria-selected="false">Əlavə</a>-->
+                        <!--                        </li>-->
                     </ul>
 
                     <div class="tab-content" id="myTabContent">
@@ -199,40 +202,45 @@ include 'core/dbconnection.php';
                             <div class="medilife-tab-content d-md-flex align-items-center">
                                 <div class="medilife-tab-text">
                                     <h2>Konfranslar</h2>
-                                    <p> "Senun Breast Ultrasound Workshop"</p>
-                                    <p> "St.Gallen International Breast Cacer Conference</p>
+                                    <p> Senun Breast Ultrasound Workshop</p>
+                                    <p> St.Gallen International Breast Cacer Conference</p>
+                                    <p> 16. Medikal-Cərrahi Endokrinoloji Mezuniyyet sonrası eğitim kursu</p>
+                                    <p> 4th. Breasts Health working group international meeting</p>
+                                    <p> TCD təməl cərrahi eyitimi kursu</p>
+                                    <p> 7th İntenational Onko-Surgery days 2019</p>
+                                    <p> Senus Breast Ultrasound workshop</p>
+                                    <p> Marmaro Universiteti Təməl Eğitim kursu 2 </p>
+                                    <p> 2 ERAS KONGRESİ </p>
+                                    <p> 22-ci Ulusal Cərrahi kongresi </p>
+                                    <p> 1-ci Ulusal Onkoloji Sempozyum </p>
                                 </div>
                                 <div class="medilife-tab-img">
                                     <img src="/img/bg-img/konfrans.jpeg" alt="">
                                 </div>
                             </div>
                         </div>
-                        <div class="tab-pane fade" id="emergencies" role="tabpanel" aria-labelledby="emergencies-tab">
-                            <div class="medilife-tab-content d-md-flex align-items-center">
-                                <!-- Medilife Tab Text  -->
-                                <div class="medilife-tab-text">
-                                    <h2>Elmi işlər</h2>
-                                    <p></p>
-                                </div>
-                                <!-- Medilife Tab Img  -->
-                                <div class="medilife-tab-img">
-                                    <img src="/img/bg-img/about1.jpg" alt="">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="tab-pane fade" id="scolarship" role="tabpanel" aria-labelledby="scolarship-tab">
-                            <div class="medilife-tab-content d-md-flex align-items-center">
-                                <!-- Medilife Tab Text  -->
-                                <div class="medilife-tab-text">
-                                    <h2>Əlavə</h2>
-                                    <p></p>
-                                </div>
-                                <!-- Medilife Tab Img  -->
-                                <div class="medilife-tab-img">
-<!--                                    <img src="/img/bg-img/medical1.png" alt="">-->
-                                </div>
-                            </div>
-                        </div>
+                        <!--                        <div class="tab-pane fade" id="emergencies" role="tabpanel" aria-labelledby="emergencies-tab">-->
+                        <!--                            <div class="medilife-tab-content d-md-flex align-items-center">-->
+                        <!--                                <div class="medilife-tab-text">-->
+                        <!--                                    <h2>Elmi işlər</h2>-->
+                        <!--                                    <p></p>-->
+                        <!--                                </div>-->
+                        <!--                                <div class="medilife-tab-img">-->
+                        <!--                                    <img src="/img/bg-img/about1.jpg" alt="">-->
+                        <!--                                </div>-->
+                        <!--                            </div>-->
+                        <!--                        </div>-->
+                        <!--                        <div class="tab-pane fade" id="scolarship" role="tabpanel" aria-labelledby="scolarship-tab">-->
+                        <!--                            <div class="medilife-tab-content d-md-flex align-items-center">-->
+                        <!--                                <div class="medilife-tab-text">-->
+                        <!--                                    <h2>Əlavə</h2>-->
+                        <!--                                    <p></p>-->
+                        <!--                                </div>-->
+                        <!--                                <div class="medilife-tab-img">-->
+                        <!--                                    <img src="/img/bg-img/medical1.png" alt="">-->
+                        <!--                                </div>-->
+                        <!--                            </div>-->
+                        <!--                        </div>-->
                     </div>
                 </div>
             </div>
