@@ -17,6 +17,7 @@ include 'core/dbconnection.php';
           content="mammoloq,radioloq,sud vezi xercengi, dos xercengi, hekim radioloq, hekim mamaloq,sud vezi xercengi hekimi,sud vezi mualicesi, Bakı Senologiya Akademiyasi, bsa, BSA"/>
     <meta name="author" content="Süd vəzi cərrahiyəsi - Uzman, Cərrah Günel Məmmədova"/>
     <link rel="alternate" hreflang="az" href="index.php"/>
+    <meta property=”og:image” content=”https://sudvezi.az/img/bg-img/uzman.png” />
     <meta property="og:url" content="https://sudvezi.az"/>
     <meta property="og:type" content="website"/>
     <meta property="og:locale" content="az_AZ"/>
@@ -60,7 +61,7 @@ include 'core/dbconnection.php';
                 <div class="col-12 h-100">
                     <div class="main-menu h-100">
                         <nav class="navbar h-100 navbar-expand-lg">
-                            <a class="navbar-brand" style="width: 112px; border-radius:5px; background-color: #f0ffff;"
+                            <a class="navbar-brand" style="width: 112px; border-radius:5px;"
                                href="index.php"
                             ><img src="img/core-img/logo_new.png" alt="Logo">
                             </a>
